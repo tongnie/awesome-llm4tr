@@ -29,6 +29,7 @@
 ```
 
 ## :fire: Update
+- 📝 TODO: Update the list of resources.
 - ✅ [March 2025] ArXiv Version: Our paper has been released in arXiv!
 
 
