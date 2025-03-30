@@ -47,3 +47,10 @@
     - *Function*: LLMs create functional algorithms, synthetic environments, and evaluation frameworks through instruction-followed content generation. This role utilizes generative capabilities of LLMs to automate the design, testing, and refinement of components in intelligent transportation systems.
 - **LLMs as decision facilitators**
     - *Function*: LLMs predict traffic dynamics, optimize decisions, and simulate human-like reasoning, establishing new paradigms as generalized task solvers. This role employs LLMs as predictive engines and decision facilitators for both micro-level agent behaviors and macro-level system states.
+
+## 📈 Research trend
+As an intuitive overview of the current research trend and focus, we visualize the statistics of selected papers according to our taxonomy.
+
+<p align="center">
+<img src="Assets/Fig3.png" width="680"/>
+</p>
