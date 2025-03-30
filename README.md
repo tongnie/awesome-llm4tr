@@ -30,3 +30,20 @@
 
 ## :fire: Update
 - [March 2025] ArXiv Version: Our paper has been released in arXiv!
+
+
+## :page_with_curl: Framework and Taxonomy
+*Definition*: LLM4TR refers to the methodological paradigm that systematically harnesses emergent capabilities of LLMs to enhance transportation tasks through four synergistic roles: transforming raw data into understandable insights, distilling domain-specific knowledge into computable structures, synthesizing adaptive system components, and orchestrating optimal decisions. We survey the existing literature and summarize how LLMs are exploited to solve transportation problems from a methodological perspective, i.e., **the roles of LLMs in transportation systems**. They generally include four aspects:
+
+<p align="center">
+<img src="Assets/Fig2.png" width="680"/>
+</p>
+
+- **LLMs as information processors**
+    - *Function*: LLMs process and fuse heterogeneous transportation data from multiple sources (text, sensor data, task description, and user feedback) through contextual     encoding, analytical reasoning, and multimodal integration. They enable unified processing of complex traffic patterns, parsing and integrating multi-source information to assist in the managing and semantic understanding of traffic data, reducing the complexity of downstream tasks.
+- **LLMs as knowledge encoders**
+    - *Function*: LLMs extract and formalize transportation domain knowledge from unstructured data through explicit rule extraction and latent semantic embedding. This role bridges the gap between the unstructured domain knowledge inherent in the data and computable (or comprehensible) representations for downstream applications.
+- **LLMs as component generators**
+    - *Function*: LLMs create functional algorithms, synthetic environments, and evaluation frameworks through instruction-followed content generation. This role utilizes generative capabilities of LLMs to automate the design, testing, and refinement of components in intelligent transportation systems.
+- **LLMs as decision facilitators**
+    - *Function*: LLMs predict traffic dynamics, optimize decisions, and simulate human-like reasoning, establishing new paradigms as generalized task solvers. This role employs LLMs as predictive engines and decision facilitators for both micro-level agent behaviors and macro-level system states.
