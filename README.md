@@ -5,6 +5,9 @@
 <a href="https://github.com/tongnie/awesome-llm4tr/stargazers"><img src="https://img.shields.io/github/stars/tongnie/awesome-llm4tr" alt="Stars Badge"/></a>
 </div>
 
+<p align="center">
+<img src="Assets/Fig1.png" width="430"/>
+</p>
 
 > A collection of papers and resources related to **Large Language Models for Transportation (LLM4TR)**. 
 >
