@@ -6,7 +6,7 @@
 > Feel free to contact us if you have any suggestions or would like to discuss with us by e-mail: tong.nie@connect.polyu.hk, wei.w.ma@polyu.edu.hk
 >
 >
-> If you find our survey or repository useful for your research, please cite the following paper:
+> 🤝 If you find our survey or repository useful for your research, please cite the following paper:
 
 ```
 @article{nie2025LLM4TR,
@@ -17,3 +17,6 @@
     url={https://arxiv.org/abs/2503.21411}
 }
 ```
+
+## :fire: Update
+- [March 2025] ArXiv Version: Our paper has been released in arXiv!
