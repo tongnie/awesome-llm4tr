@@ -29,7 +29,7 @@
 ```
 
 ## :fire: Update
-- [March 2025] ArXiv Version: Our paper has been released in arXiv!
+- ✅ [March 2025] ArXiv Version: Our paper has been released in arXiv!
 
 
 ## :page_with_curl: Framework and Taxonomy
