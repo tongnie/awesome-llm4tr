@@ -8,6 +8,8 @@
 <p align="center">
 <img src="Assets/Fig1.png" width="580"/>
 </p>
+<h5 align=center>The LLM4TR framework proposed in this survey.</h5>
+
 
 > A collection of papers and resources related to **Large Language Models for Transportation (LLM4TR)**. 
 >
@@ -39,6 +41,7 @@
 <p align="center">
 <img src="Assets/Fig2.png" width="680"/>
 </p>
+<h5 align=center>The literature classification procedure in this survey.</h5>
 
 - **LLMs as information processors**
     - *Function*: LLMs process and fuse heterogeneous transportation data from multiple sources (text, sensor data, task description, and user feedback) through contextual     encoding, analytical reasoning, and multimodal integration. They enable unified processing of complex traffic patterns, parsing and integrating multi-source information to assist in the managing and semantic understanding of traffic data, reducing the complexity of downstream tasks.
@@ -55,3 +58,4 @@ As an intuitive overview of the current research trend and focus, we visualize t
 <p align="center">
 <img src="Assets/Fig3.png" width="680"/>
 </p>
+<h5 align=center>Heatmap of the current research trend and pie chart of the proportion of the four roles of LLMs in different tasks.</h5>
