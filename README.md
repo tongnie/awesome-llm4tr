@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-<img src="Assets/Fig1.png" width="680"/>
+<img src="Assets/Fig1.png" width="580"/>
 </p>
 
 > A collection of papers and resources related to **Large Language Models for Transportation (LLM4TR)**. 
