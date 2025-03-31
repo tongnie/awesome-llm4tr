@@ -32,6 +32,7 @@
 
 ## :fire: Update
 - 📝 TODO: Update the list of resources.
+- ✅ Initialize the repository.
 - ✅ [March 2025] ArXiv Version: Our paper has been released in arXiv!
 
 
