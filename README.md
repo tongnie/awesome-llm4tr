@@ -62,6 +62,25 @@ As an intuitive overview of the current research trend and focus, we visualize t
 <h5 align=center>Heatmap of the current research trend and pie chart of the proportion of the four roles of LLMs in different tasks.</h5>
 
 
+## ⭐ Overview of mainstream LLMs
+| **Model**                        | **Release Date**    | **Organization** | **Size (B)**   | **Data (TB**  | **Hardware Cost**    | **Public Access** |
+|---------------------------------------|---------------------|-----------------------|-----------------|----------------|----------------------|-----------------|
+| T5       | 2019.10             | Google                | 11              | 750 GB of text | 1024 TPU v3          | Yes             |
+| GPT-3     | 2020.5              | OpenAI                | 175             | 300 B tokens   | -                    | No              |
+| PaLM       | 2022.4              | Google                | 540             | 780 B tokens   | 6144 TPU v4          | No              |
+| LLaMA         | 2023.2              | Meta                  | 65              | 1.4 T tokens   | 2048    A100 GPU   |       Partial  | 
+| GPT-4           | 2023.3              | OpenAI                | -               | -              | -                    | No              |
+| LLaMA-2      | 2023.7              | Meta                  | 70              | 2 T tokens     | 2000    A100 GPU              | Yes                 |
+| Mistral-7B | 2023.9              | Mistral AI            | 7               | -              | -                    | Yes             |
+| Qwen-72B          | 2023.11             | Alibaba               | 72              | 3 T tokens     | -                    | Yes             |
+| Grok-1                                | 2024.3              | xAI                   | 314             | -              | -                    | Yes             |
+| Claude 3                              | 2024.3              | Anthropic             | -               | -              | -                    | No              |
+| GLM-4-9B        | 2024.6              | Zhipu AI              | 9               | 10 T tokens    | -                    | Yes             |
+| LLaMA-3.1       | 2024.7              | Meta                  | 405             | 15 T tokens    | 16 thousand H100 GPU | Yes             |
+| Gemma-2         | 2024.6              | Google                | 27              | 13 T tokens    | 6144 TPUv5p          | Yes             |
+| DeepSeek-V3    | 2024.12             | DeepSeek              | 671 | 14.8 T tokens  | 2048 H800 GPU        | Yes             |
+
+
 ## License
 
 This repository is released under the [MIT LICENSE](LICENSE).
