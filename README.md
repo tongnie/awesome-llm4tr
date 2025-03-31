@@ -64,4 +64,4 @@ As an intuitive overview of the current research trend and focus, we visualize t
 
 ## License
 
-This repository is released under the [MIT LICENSE]()
+This repository is released under the [MIT LICENSE](LICENSE)
