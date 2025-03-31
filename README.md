@@ -60,3 +60,8 @@ As an intuitive overview of the current research trend and focus, we visualize t
 <img src="Assets/Fig3.png" width="680"/>
 </p>
 <h5 align=center>Heatmap of the current research trend and pie chart of the proportion of the four roles of LLMs in different tasks.</h5>
+
+
+## License
+
+This repository is released under the [MIT LICENSE]()
