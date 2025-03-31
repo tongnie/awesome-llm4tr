@@ -115,6 +115,20 @@ As an intuitive overview of the current research trend and focus, we visualize t
 
 
 
+## 📖 Popular open-source libraries for LLM development
+| **Library Name**     | **Basic Functions**                                                                       | **Use Cases**                                                             | 
+|---------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------|
+| [Hugging Face Transformers](https://huggingface.co/docs/transformers) | Pretrained models (NLP, vision) and fine-tuning pipelines                                      | Model deployment, adapt tuning                                                 | 
+| [DeepEval](https://github.com/confident-ai/deepeval)                  | Framework for evaluating LLM outputs using metrics like groundedness and bias                  | Educational applications, hallucination detection                              |
+| [RAGAS](https://github.com/explodinggradients/ragas)                     | Quantifies RAG pipeline performance                                                            | Context relevance scoring, answer quality                                      | 
+| [Sentence Transformers](https://www.sbert.net/)    | Generates dense text embeddings for semantic similarity tasks                                  | Survey item correlation analysis, retrieval                                    | 
+| [LangChain](https://www.langchain.com/)                 | Chains LLM calls with external tools for multi-step workflows                                  | RAG, agentic reasoning, data preprocessing                                     |
+| [DeepSpeed](https://www.deepspeed.ai/)                 | A deep learning optimization library developed by Microsoft, which has been used to train LLMs | Distributed training, memory optimization, pipeline parallelism                | 
+| [FastMoE](https://fastmoe.ai/)                   | A specialized training library for MoE models based on PyTorch                                 | Transfer Transformer models to MoE models, data parallelism, model parallelism | 
+| [Ollama](https://ollama.ai)                    | Local LLM serving with support for models like Llama and Mistral                               | Offline inference, privacy-sensitive apps                                      | 
+| [OpenLLM](https://github.com/bentoml/OpenLLM)                  | Optimizes LLM deployment as production APIs compatible with OpenAI standards                   | Scalable model serving, cloud/on-prem hosting                                  | 
+
+
 ## License
 
 This repository is released under the [MIT LICENSE](LICENSE).
