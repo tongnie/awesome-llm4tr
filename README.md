@@ -31,6 +31,7 @@
 ```
 
 ## :fire: Update
+- 📝 TODO: Update the repository of open-source projects.
 - 📝 TODO: Update the papers of each category.
 - ✅ Update the list of resources.
 - ✅ Initialize the repository.
