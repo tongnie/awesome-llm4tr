@@ -132,13 +132,15 @@ As an intuitive overview of the current research trend and focus, we visualize t
 | [Ollama](https://ollama.ai)                    | Local LLM serving with support for models like Llama and Mistral                               | Offline inference, privacy-sensitive apps                                      | 
 | [OpenLLM](https://github.com/bentoml/OpenLLM)                  | Optimizes LLM deployment as production APIs compatible with OpenAI standards                   | Scalable model serving, cloud/on-prem hosting                                  | 
 
-## A rouge estimate of the hardware requirements for fine-tuning and inference across LLaMA model sizes. BS = Batch Size. Estimated values marked "(est.)" derive from scaling laws. Inference rates measured at batch size 1 unless noted. Actual requirements and performance may differ for specific configurations.
+## 🖥️ A rouge estimate of the hardware requirements for fine-tuning and inference across LLaMA model sizes. 
+> BS = Batch Size. Estimated values marked "(est.)" derive from scaling laws. Inference rates measured at batch size 1 unless noted. Actual requirements and performance may differ for specific configurations.
+
 | **Model Size** | **Full Tuning GPUs**  | **LoRA Tuning GPUs**  | **Full Tuning BS/GPU** | **LoRA BS/GPU** | **Tuning Time (Hours)** | **Inference Rate (Tokens/s)** |
 |---------------------|----------------------------|----------------------------|-----------------------------|----------------------|------------------------------|------------------------------------|
-| 7B         | 2$\times$A100 80GB         | 1$\times$RTX 4090 24GB     | 1-2                         | 4-8                  | 3-5                          | 27-30                              |
-| 13B        | 4$\times$A100 80GB (est.)  | 2$\times$A100 40GB         | 1                           | 2-4                  | 8-12                         | 18-22                              |
-| 70B        | 8$\times$H200 80GB         | 4$\times$H200 80GB         | 1                           | 1-2                  | 24-36                        | 12-15                              |
-| 405B      | 64$\times$H200 80GB (est.) | 16$\times$H200 80GB (est.) | 1 (est.)                    | 1 (est.)             | 72-96 (est.)                 | 5-8                                |
+| 7B         | 2×A100 80GB         | 1×RTX 4090 24GB     | 1-2                         | 4-8                  | 3-5                          | 27-30                              |
+| 13B        | 4×A100 80GB (est.)  | 2×A100 40GB         | 1                           | 2-4                  | 8-12                         | 18-22                              |
+| 70B        | 8×H200 80GB         | 4×H200 80GB         | 1                           | 1-2                  | 24-36                        | 12-15                              |
+| 405B      | 64×H200 80GB (est.) | 16×H200 80GB (est.) | 1 (est.)                    | 1 (est.)             | 72-96 (est.)                 | 5-8                                |
 
 
 
