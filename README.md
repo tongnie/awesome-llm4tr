@@ -1,9 +1,11 @@
 # Exploring the Roles of Large Language Models in Reshaping Transportation Systems: A Survey, Framework, and Roadmap
 
 <div align="center">
+<a href="https://doi.org/10.1016/j.ait.2025.100003"><img src="https://img.shields.io/badge/DOI-10.1016/j.ait.2025.100003-blue" alt="DOI Badge"/></a>
 <a href="https://arxiv.org/abs/2503.21411"><img src="https://img.shields.io/badge/arXiv-2503.21411-b31b1b.svg" alt="arXiv Badge"/></a>
 <a href="https://github.com/tongnie/awesome-llm4tr/stargazers"><img src="https://img.shields.io/github/stars/tongnie/awesome-llm4tr" alt="Stars Badge"/></a>
 </div>
+
 
 <p align="center">
 <img src="Assets/Fig1.png" width="580"/>
@@ -11,11 +13,11 @@
 <h5 align=center>The LLM4TR framework proposed in this survey.</h5>
 
 
-> A collection of papers and resources related to **Large Language Models for Transportation (LLM4TR)**. 
+> A curated collection of papers, datasets, and resources related to **Large Language Models for Transportation (LLM4TR)**. 
 >
-> This is the online content of our survey [**"Exploring the Roles of Large Language Models in Reshaping Transportation Systems: A Survey, Framework, and Roadmap"**]([https://arxiv.org/abs/2503.21411](https://arxiv.org/abs/2503.21411)). [![Paper page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](https://arxiv.org/abs/2503.21411)
+> This repository serves as the online companion to our survey [**"Exploring the Roles of Large Language Models in Reshaping Transportation Systems: A Survey, Framework, and Roadmap"**]([https://arxiv.org/abs/2503.21411](https://arxiv.org/abs/2503.21411)). [![Paper page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](https://arxiv.org/abs/2503.21411)
 >
-> 📢 This project will continue to be updated, stay tuned!
+> 📢 The rapid advancement of Large Language Models (LLMs) is creating a paradigm shift in transportation research, moving from purely data-driven models to knowledge-infused intelligent systems. This repository aims to track the cutting-edge developments in this exciting field, serving as a hub for researchers, practitioners, and students. Stay tuned!
 > 
 > Feel free to contact us if you have any suggestions or would like to discuss with us by e-mail: tong.nie@connect.polyu.hk, wei.w.ma@polyu.edu.hk
 >
@@ -23,21 +25,45 @@
 > 🤝 If you find our survey or repository useful for your research, please cite the following paper:
 
 ```
-@article{nie2025LLM4TR,
-    title={Exploring the Roles of Large Language Models in Reshaping Transportation Systems: A Survey, Framework, and Roadmap},
-    author={Tong Nie and Jian Sun and Wei Ma},
-    year={2025},
-    journal={arXiv preprint arXiv:2503.21411},
-    url={https://arxiv.org/abs/2503.21411}
+@article{nie2025exploring,
+  title={Exploring the roles of large language models in reshaping transportation systems: A survey, framework, and roadmap},
+  author={Nie, Tong and Sun, Jian and Ma, Wei},
+  journal={Artificial Intelligence for Transportation},
+  volume={1},
+  pages={100003},
+  year={2025},
+  publisher={Elsevier},
+  doi={10.1016/j.ait.2025.100003}
 }
 ```
 
-## :fire: Update
-- 📝 TODO: Update the repository of open-source projects.
-- 📝 TODO: Update the papers of each category.
-- ✅ Update the list of resources.
-- ✅ Initialize the repository.
-- ✅ [March 2025] ArXiv Version: Our paper has been released in arXiv!
+<details>
+<summary><strong>Table of Contents</strong></summary>
+
+- [🔥 News & Updates](#-news--updates)
+- [📝 Cite Our Work](#-cite-our-work)
+- [📖 Framework and Taxonomy](#-framework-and-taxonomy)
+- [📚 Papers by Category](#-papers-by-category)
+  - [LLMs as Information Processors](#llms-as-information-processors)
+  - [LLMs as Knowledge Encoders](#llms-as-knowledge-encoders)
+  - [LLMs as Component Generators](#llms-as-component-generators)
+  - [LLMs as Decision Facilitators](#llms-as-decision-facilitators)
+- [📈 Research Trend](#-research-trend)
+- [⭐ Overview of Mainstream LLMs](#-overview-of-mainstream-llms)
+- [📋 Summary of Language-Enhanced Datasets](#-summary-of-language-enhanced-datasets)
+- [📄 Representative Surveys on LLMs](#-representative-surveys-on-llms)
+- [🛠️ Popular Open-Source Libraries for LLM Development](#️-popular-open-source-libraries-for-llm-development)
+- [🖥️ Hardware Requirements for Fine-Tuning](#️-hardware-requirements-for-fine-tuning)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [License](#license)
+
+</details>
+
+
+## 🔥 News & Updates
+- 🎉 **[June 2025] Official Publication!** Our survey has been published in the inaugural issue of ***Artificial Intelligence for Transportation (AIT)***, a new flagship journal led by the Chinese Overseas Transportation Association (COTA). As the third paper in its first volume (1, 100003), we are honored to contribute to this exciting new venue for AI in transportation research!
+- ✅ **[March 2025] ArXiv Version:** Our survey is released on arXiv!
+- ✅ **[March 2025] Repository Launch:** The `awesome-llm4tr` repository is initialized.
 
 
 ## :page_with_curl: Framework and Taxonomy
