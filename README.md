@@ -21,25 +21,9 @@
 > 
 > Feel free to contact us if you have any suggestions or would like to discuss with us by e-mail: tong.nie@connect.polyu.hk, wei.w.ma@polyu.edu.hk
 >
->
-> 🤝 If you find our survey or repository useful for your research, please cite the following paper:
 
-```
-@article{nie2025exploring,
-  title={Exploring the roles of large language models in reshaping transportation systems: A survey, framework, and roadmap},
-  author={Nie, Tong and Sun, Jian and Ma, Wei},
-  journal={Artificial Intelligence for Transportation},
-  volume={1},
-  pages={100003},
-  year={2025},
-  publisher={Elsevier},
-  doi={10.1016/j.ait.2025.100003}
-}
-```
 
-<details>
-<summary><strong>Table of Contents</strong></summary>
-
+## Table of Contents
 - [🔥 News & Updates](#-news--updates)
 - [📝 Cite Our Work](#-cite-our-work)
 - [📖 Framework and Taxonomy](#-framework-and-taxonomy)
@@ -57,119 +41,219 @@
 - [🤝 How to Contribute](#-how-to-contribute)
 - [License](#license)
 
-</details>
 
 
 ## 🔥 News & Updates
-- 🎉 **[June 2025] Official Publication!** Our survey has been published in the inaugural issue of ***Artificial Intelligence for Transportation (AIT)***, a new flagship journal led by the Chinese Overseas Transportation Association (COTA). As the third paper in its first volume (1, 100003), we are honored to contribute to this exciting new venue for AI in transportation research!
+- 🎉 **[June 2025] Official Publication!** Our survey has been published in the inaugural issue of ***Artificial Intelligence for Transportation (AIT)***, a new flagship journal led by the Chinese Overseas Transportation Association (COTA). As the **third paper** in its first volume (1, 100003), we are honored to contribute to this exciting new venue for AI in transportation research!
 - ✅ **[March 2025] ArXiv Version:** Our survey is released on arXiv!
 - ✅ **[March 2025] Repository Launch:** The `awesome-llm4tr` repository is initialized.
 
+## 📝 Cite Our Work
+If you find our survey or this repository useful for your research, please cite our paper:
+```bibtex
+@article{nie2025exploring,
+  title={Exploring the roles of large language models in reshaping transportation systems: A survey, framework, and roadmap},
+  author={Nie, Tong and Sun, Jian and Ma, Wei},
+  journal={Artificial Intelligence for Transportation},
+  volume={1},
+  pages={100003},
+  year={2025},
+  publisher={Elsevier},
+  doi={10.1016/j.ait.2025.100003}
+}
+```
 
-## :page_with_curl: Framework and Taxonomy
-*Definition*: LLM4TR refers to the methodological paradigm that systematically harnesses emergent capabilities of LLMs to enhance transportation tasks through four synergistic roles: transforming raw data into understandable insights, distilling domain-specific knowledge into computable structures, synthesizing adaptive system components, and orchestrating optimal decisions. We survey the existing literature and summarize how LLMs are exploited to solve transportation problems from a methodological perspective, i.e., **the roles of LLMs in transportation systems**. They generally include four aspects:
+## 📖 Framework and Taxonomy
+*Definition*: **LLM4TR** refers to the methodological paradigm that systematically harnesses emergent capabilities of LLMs to enhance transportation tasks through four synergistic roles: transforming raw data into understandable insights, distilling domain-specific knowledge into computable structures, synthesizing adaptive system components, and orchestrating optimal decisions. We survey the existing literature and summarize how LLMs are exploited to solve transportation problems from a methodological perspective, i.e., the roles of LLMs in transportation systems. They generally include four aspects:
 
 <p align="center">
 <img src="Assets/Fig2.png" width="680"/>
 </p>
 <h5 align=center>The literature classification procedure in this survey.</h5>
 
-- **LLMs as information processors**
-    - *Function*: LLMs process and fuse heterogeneous transportation data from multiple sources (text, sensor data, task description, and user feedback) through contextual     encoding, analytical reasoning, and multimodal integration. They enable unified processing of complex traffic patterns, parsing and integrating multi-source information to assist in the managing and semantic understanding of traffic data, reducing the complexity of downstream tasks.
-- **LLMs as knowledge encoders**
-    - *Function*: LLMs extract and formalize transportation domain knowledge from unstructured data through explicit rule extraction and latent semantic embedding. This role bridges the gap between the unstructured domain knowledge inherent in the data and computable (or comprehensible) representations for downstream applications.
-- **LLMs as component generators**
-    - *Function*: LLMs create functional algorithms, synthetic environments, and evaluation frameworks through instruction-followed content generation. This role utilizes generative capabilities of LLMs to automate the design, testing, and refinement of components in intelligent transportation systems.
-- **LLMs as decision facilitators**
-    - *Function*: LLMs predict traffic dynamics, optimize decisions, and simulate human-like reasoning, establishing new paradigms as generalized task solvers. This role employs LLMs as predictive engines and decision facilitators for both micro-level agent behaviors and macro-level system states.
+---
 
-## 📈 Research trend
-As an intuitive overview of the current research trend and focus, we visualize the statistics of selected papers according to our taxonomy.
+## 📚 Papers by Category
+Here, we list representative papers according to the four roles defined in the LLM4TR framework. (Placeholders `[link]`, `[code]`, `[project]` to fill in).
+
+### LLMs as Information Processors
+*Function: Process and fuse heterogeneous transportation data from multiple sources (text, sensor data, user feedback) through contextual encoding, analytical reasoning, and multimodal integration.*
+
+- **Context Encoder**
+    - **[TP-GPT: Real-time data informed intelligent chatbot for transportation surveillance and management]([link])**. *Wang, B. et al.* **[arXiv 2024]**. `[project]`
+        - *Highlight: Generates SQL queries and natural language interpretations for large-scale traffic databases.*
+    - **[ChatSUMO: Large language model for automating traffic scenario generation in simulation of urban mobility]([link])**. *Li, S. et al.* **[T-IV 2024]**. `[code]`
+        - *Highlight: Enables non-experts to create SUMO traffic simulations using natural language commands.*
+    - **[ChatScene: Knowledge-enabled safety-critical scenario generation for autonomous vehicles]([link])**. *Zhang, J. et al.* **[CVPR 2024]**. `[project]`
+        - *Highlight: Utilizes LLMs to decompose unstructured language into detailed, safety-critical driving scenarios for simulation.*
+
+- **Data Analyzer**
+    - **[CrashLLM: Learning traffic crashes as language: Datasets, benchmarks, and what-if causal analyses]([link])**. *Fan, Z. et al.* **[arXiv 2024]**. `[project]`
+        - *Highlight: Fine-tunes LLMs to predict crash outcomes and analyze contributing factors from textual crash reports.*
+    - **[TrafficGPT: Viewing, processing and interacting with traffic foundation models]([link])**. *Zhang, S. et al.* **[Transport Policy 2024]**. `[project]`
+        - *Highlight: Demonstrates the zero-shot analytical capabilities of LLMs for traffic data analysis and management support.*
+
+- **Multimodal Fuser**
+    - **[SeeUnsafe: When language and vision meet road safety: leveraging multimodal large language models for video-based traffic accident analysis]([link])**. *Zhang, R. et al.* **[arXiv 2025]**. `[project]`
+        - *Highlight: An interactive framework where an MLLM classifies accidents, grounds visual elements, and generates structured reports from video.*
+    - **[RAG-Driver: Generalisable driving explanations with retrieval-augmented in-context learning in multi-modal large language model]([link])**. *Yuan, J. et al.* **[arXiv 2024]**. `[code]`
+        - *Highlight: Integrates a retrieval mechanism to provide expert demonstrations, improving the generation of human-readable driving actions.*
+
+### LLMs as Knowledge Encoders
+*Function: Extract and formalize transportation domain knowledge from unstructured data through explicit rule extraction and latent semantic embedding.*
+
+- **Knowledge Extractor**
+    - **[TransGPT: Multi-modal generative pre-trained transformer for transportation]([link])**. *Wang, P. et al.* **[arXiv 2024]**. `[project]`
+        - *Highlight: A specialized LLM fine-tuned on transportation datasets to serve as a domain-specific knowledge base.*
+    - **[TrafficSafetyGPT: Tuning a pre-trained large language model to a domain-specific expert in transportation safety]([link])**. *Zheng, O. et al.* **[arXiv 2023]**. `[code]`
+        - *Highlight: Grounds LLMs in safety-critical contexts by fine-tuning on a curated corpus of official guidebooks and generated instructions.*
+    - **[TARGET: Automated scenario generation from traffic rules for testing autonomous vehicles]([link])**. *Deng, Y. et al.* **[arXiv 2023]**. `[code]`
+        - *Highlight: Employs LLMs to parse natural language traffic rules and generate formal, executable test scenarios for simulators.*
+
+- **Knowledge Representation Embedder**
+    - **[Geolocation representation from large language models are generic enhancers for spatio-temporal learning]([link])**. *He, J. et al.* **[arXiv 2024]**. `[code]`
+        - *Highlight: Elicits inherent geospatial knowledge from pretrained LLMs to create continuous vector representations of locations for downstream tasks.*
+    - **[LCT-Gen: Language conditioned traffic generation]([link])**. *Tan, S. et al.* **[arXiv 2023]**. `[code]`
+        - *Highlight: Converts textual descriptions into structured scene vectors to condition a Transformer model for realistic traffic behavior generation.*
+    - **[ALT-Pilot: Autonomous navigation with language augmented topometric maps]([link])**. *Omama, M. et al.* **[arXiv 2023]**. `[project]`
+        - *Highlight: Uses LLMs to generate embeddings of language-based landmarks, enhancing vehicle localization in unmapped environments.*
+
+### LLMs as Component Generators
+*Function: Create functional algorithms, synthetic environments, and evaluation frameworks through instruction-followed content generation.*
+
+- **Function Designer**
+    - **[AutoReward: Closed-loop reward design with large language models for autonomous driving]([link])**. *Han, X. et al.* **[T-IV 2024]**. `[code]`
+        - *Highlight: Automates the design of reward functions for RL-based autonomous driving using concrete linguistic goals.*
+    - **[Large language model-enhanced reinforcement learning for generic bus holding control strategies]([link])**. *Yu, J. et al.* **[arXiv 2024]**. `[code]`
+        - *Highlight: Leverages LLMs to automate reward function design for RL-based public transit control through a multi-module framework.*
+
+- **World Simulator**
+    - **[MagicDrive: Street view generation with diverse 3D geometry control]([link])**. *Gao, R. et al.* **[arXiv 2023]**. `[project]`
+        - *Highlight: A pioneering generative model for creating high-fidelity, controllable street-view images and videos from various signals.*
+    - **[DriveDreamer-2: LLM-enhanced world models for diverse driving video generation]([link])**. *Zhao, G. et al.* **[arXiv 2024]**. `[project]`
+        - *Highlight: Integrates an LLM interface to convert user queries into agent trajectories, generating customized HD maps and driving videos.*
+
+- **Evaluator & Interpreter**
+    - **[CRITICAL: Enhancing autonomous vehicle training with language model integration and critical scenario generation]([link])**. *Tian, H. et al.* **[arXiv 2024]**. `[project]`
+        - *Highlight: A framework that uses LLMs to interpret RL training episodes, evaluate failure patterns, and generate critical scenarios for self-refinement.*
+    - **[iLLM-TSC: Integration reinforcement learning and large language model for traffic signal control policy improvement]([link])**. *Pang, A. et al.* **[arXiv 2024]**. `[code]`
+        - *Highlight: An LLM acts as a corrective layer to evaluate and refine decisions made by an RL agent for traffic signal control.*
+
+### LLMs as Decision Facilitators
+*Function: Predict traffic dynamics, optimize decisions, and simulate human-like reasoning, establishing new paradigms as generalized task solvers.*
+
+- **Decision Maker**
+    - **[LLMLight: Large language models as traffic signal control agents: Capacity and opportunity]([link])**. *Lai, S. et al.* **[arXiv 2023]**. `[code]`
+        - *Highlight: A pioneering work that employs GPT models as intuitive, human-like decision-makers for traffic light optimization.*
+    - **[DriveLM: Driving with graph visual question answering]([link])**. *Sima, C. et al.* **[ECCV 2024]**. `[project]`
+        - *Highlight: Structures scene understanding as Graph Visual Question Answering, enabling multi-step reasoning for autonomous driving decisions.*
+    - **[DriveGPT4: Interpretable end-to-end autonomous driving via large language model]([link])**. *Xu, Z. et al.* **[RAL 2024]**. `[project]`
+        - *Highlight: An end-to-end framework that processes video and text queries to directly predict control signals while providing rationale.*
+
+- **Decision Guider**
+    - **[AccidentGPT: Accident analysis and prevention from V2X environmental perception with multi-modal large model]([link])**. *Wang, L. et al.* **[arXiv 2023]**. `[code]`
+        - *Highlight: A multimodal safety advisor that anticipates accidents and issues dialogue-based contextual recommendations.*
+    - **[LanguageMPC: Large language models as decision makers for autonomous driving]([link])**. *Sha, H. et al.* **[arXiv 2023]**. `[code]`
+        - *Highlight: Uses an LLM as a high-level planner to reason about traffic scenarios and adjust the priorities of a low-level Model Predictive Control system.*
+
+- **Spatial-Temporal Predictor**
+    - **[TPLLM: A traffic prediction framework based on pretrained large language models]([link])**. *Ren, Y. et al.* **[arXiv 2024]**. `[code]`
+        - *Highlight: Introduces a LoRA fine-tuning approach for GPT-2 to perform traffic prediction efficiently.*
+    - **[ST-LLM: Spatial-temporal large language model for traffic prediction]([link])**. *Liu, C. et al.* **[arXiv 2024]**. `[code]`
+        - *Highlight: Adopts a GPT-like architecture with a unified spatial-temporal embedding module for traffic forecasting.*
+
+---
+
+## 📈 Research Trend
+An overview of the current research trends, visualized according to our taxonomy.
 
 <p align="center">
 <img src="Assets/Fig3.png" width="680"/>
 </p>
 <h5 align=center>Heatmap of the current research trend and pie chart of the proportion of the four roles of LLMs in different tasks.</h5>
 
-
-## ⭐ Overview of mainstream LLMs
-| **Model**                        | **Release Date**    | **Organization** | **Size (B)**   | **Data (TB**  | **Hardware Cost**    | **Public Access** |
+## ⭐ Overview of Mainstream LLMs
+| **Model**                        | **Release Date**    | **Organization** | **Size (B)**   | **Data (TB)**  | **Hardware Cost**    | **Public Access** |
 |---------------------------------------|---------------------|-----------------------|-----------------|----------------|----------------------|-----------------|
-| T5       | 2019.10             | Google                | 11              | 750 GB of text | 1024 TPU v3          | Yes             |
+| [T5](https://github.com/google-research/text-to-text-transfer-transformer)      | 2019.10             | Google                | 11              | 750 GB of text | 1024 TPU v3          | Yes             |
 | GPT-3     | 2020.5              | OpenAI                | 175             | 300 B tokens   | -                    | No              |
 | PaLM       | 2022.4              | Google                | 540             | 780 B tokens   | 6144 TPU v4          | No              |
-| LLaMA         | 2023.2              | Meta                  | 65              | 1.4 T tokens   | 2048    A100 GPU   |       Partial  | 
+| [LLaMA](https://github.com/facebookresearch/llama)         | 2023.2              | Meta                  | 65              | 1.4 T tokens   | 2048    A100 GPU   |       Partial  |
 | GPT-4           | 2023.3              | OpenAI                | -               | -              | -                    | No              |
-| LLaMA-2      | 2023.7              | Meta                  | 70              | 2 T tokens     | 2000    A100 GPU              | Yes                 |
-| Mistral-7B | 2023.9              | Mistral AI            | 7               | -              | -                    | Yes             |
-| Qwen-72B          | 2023.11             | Alibaba               | 72              | 3 T tokens     | -                    | Yes             |
-| Grok-1                                | 2024.3              | xAI                   | 314             | -              | -                    | Yes             |
+| [LLaMA-2](https://ai.meta.com/llama/)      | 2023.7              | Meta                  | 70              | 2 T tokens     | 2000    A100 GPU              | Yes                 |
+| [Mistral-7B](https://mistral.ai/news/announcing-mistral-7b/) | 2023.9              | Mistral AI            | 7               | -              | -                    | Yes             |
+| [Qwen-72B](https://github.com/QwenLM/Qwen)          | 2023.11             | Alibaba               | 72              | 3 T tokens     | -                    | Yes             |
+| [Grok-1](https://github.com/xai-org/grok-1)                                | 2024.3              | xAI                   | 314             | -              | -                    | Yes             |
 | Claude 3                              | 2024.3              | Anthropic             | -               | -              | -                    | No              |
-| GLM-4-9B        | 2024.6              | Zhipu AI              | 9               | 10 T tokens    | -                    | Yes             |
-| LLaMA-3.1       | 2024.7              | Meta                  | 405             | 15 T tokens    | 16 thousand H100 GPU | Yes             |
-| Gemma-2         | 2024.6              | Google                | 27              | 13 T tokens    | 6144 TPUv5p          | Yes             |
-| DeepSeek-V3    | 2024.12             | DeepSeek              | 671 | 14.8 T tokens  | 2048 H800 GPU        | Yes             |
+| [ChatGLM-4](https://github.com/THUDM/ChatGLM-4)        | 2024.6              | Zhipu AI              | 9               | 10 T tokens    | -                    | Yes             |
+| [LLaMA-3.1](https://ai.meta.com/blog/meta-llama-3-1/)       | 2024.7              | Meta                  | 405             | 15 T tokens    | 16k H100 GPU | Yes             |
+| [Gemma-2](https://ai.google.dev/gemma/docs/gemma2)         | 2024.6              | Google                | 27              | 13 T tokens    | 6144 TPUv5p          | Yes             |
+| [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2)    | 2024.12             | DeepSeek              | 671 (MoE) | 14.8 T tokens  | 2048 H800 GPU        | Yes             |
 
+## 📋 Summary of Language-Enhanced Datasets
+A collection of datasets and benchmarks designed for LLM development in ITS and autonomous driving.
+| **Dataset**                                             | **Year** | **Venue** | **Task**                                                                                      | **Use Case in LLM Development**                                                  |
+|:-------------------------------------------------------------|:--------:|:---------:|:--------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
+| [BDD-X](https://github.com/JinkyuKimUCB/BDD-X-dataset)                                | 2018     | ECCV      | Action interpretation and control signal prediction                                                | Explainable end-to-end driving through visual question answering.                     |
+| [SUTD-TrafficQA](https://github.com/sutdcv/SUTD-TrafficQA)                           | 2021     | CVPR      | Video causal reasoning over traffic events                                                         | Evaluating the reasoning capability over 6 tasks.                                     |
+| [TrafficSafety-2K](https://github.com/ozheng1993/TrafficSafetyGPT?tab=readme-ov-file)       | 2023     | arXiv     | Annotated traffic incident and crash report analysis                                               | GPT fine-tuning for safety situational awareness.                                     |
+| [NuPrompt](https://github.com/wudongming97/Prompt4Driving?tab=readme-ov-file)                              | 2023     | AAAI      | Object-centric language prompt set for 3D driving scenes                                           | Prompt-based driving task to predict the described object trajectory.                 |
+| [LaMPilot](https://github.com/PurdueDigitalTwin/LaMPilot)                               | 2024     | CVPR      | Code generation for autonomous driving decisions                                                   | CoT reasoning and instruction following for lane changes and speed adaptation.        |
+| [CoVLA](https://huggingface.co/datasets/turing-motors/CoVLA-Dataset)                                  | 2024     | arXiv     | Vision-Language-Action alignment (80+ hrs driving videos)                                          | Trajectory planning with natural language maneuver descriptions.                      |
+| [VLAAD](https://github.com/sungyeonparkk/vision-assistant-for-driving)                                  | 2024     | WACV      | Natural language description of driving scenarios                                                  | QA systems for driving situation understanding.                                       |
+| [CrashLLM](https://crashllm.github.io/)                            | 2024     | arXiv     | Crash outcome prediction (severity, injuries)                                                      | What-if causal analysis for traffic safety using 19k crash reports.                   |
+| [TransportBench](https://agi4engineering.github.io/TransportBench/)                  | 2024     | arXiv     | Answering undergraduate-level transportation engineering problem                                   | Benchmarking LLMs on planning, design, management, and control questions.             |
+| [Driving QA](https://github.com/wayveai/Driving-with-LLMs)                           | 2024     | ICRA      | 160k driving QA pairs with control commands                                                        | Interpreting scenarios, answering questions, and decision-making.                     |
+| [MAPLM](https://github.com/LLVM-AD/MAPLM)                                   | 2024     | CVPR      | Multimodal traffic scene dataset including context, image, point cloud, and HD map                 | Visual instruction-tuning LLMs and VLMs and vision QA tasks.                          |
+| [DrivingDojo](https://github.com/Robertwyq/Drivingdojo)                     | 2024     | NeurIPS   | Video clips with maneuvers, multi-agent interplay, and driving knowledge | Training and action instruction following benchmark for driving world models. |
+| [TransportationGames](https://arxiv.org/abs/2401.04471)   | 2024     | arXiv     | Benchmarks of LLMs in memorizing, understanding, and applying transportation knowledge | Grounding (M)LLMs in transportation-related tasks.                                    |
+| [NuScenes-QA](https://github.com/qiantianwen/NuScenes-QA)                         | 2024     | AAAI      | Benchmark for vision QA in autonomous driving, with 34K visual scenes and 460K QA pairs       | Developing 3D detection and VQA techniques for end-to-end autonomous driving systems. |
+| [TUMTraffic-VideoQA](https://traffix-videoqa.github.io/)                | 2025     | arXiv     | Temporal traffic video understanding                                                               | Benchmarking video reasoning for multiple-choice video question answering.            |
+| [V2V-QA](https://eddyhkchiu.github.io/v2vllm.github.io/)                                  | 2025     | arXiv     | Cooperative perception via V2V communication                                                       | Fuse perception information from multiple CAVs and answer driving-related questions.  |
+| [DriveBench](https://drive-bench.github.io/)                               | 2025     | arXiv     | A comprehensive benchmark of VLMs for perception, prediction, planning, and explanation            | Visual grounding and multi-modal understanding for autonomous driving.                |
 
-## 📋 Summary of language-enhanced ITS and autonomous driving datasets for LLM development and evaluation benchmarks
-| **Dataset**                                             | **Year**                                                                 | **Venue** | **Task**                                                                                      | **Use Case in LLM Development**                                                  |
-|--------------------------------------------------------------|-------------------------------------------------------------------------------|----------------|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [BDD-X](https://github.com/JinkyuKimUCB/BDD-X-dataset)                                | 2018                                                                          | ECCV           | Action interpretation and control signal prediction                                                | Explainable end-to-end driving through visual question answering.                     |
-| [SUTD-TrafficQA](https://github.com/sutdcv/SUTD-TrafficQA)                           | 2021                                                                          | CVPR           | Video causal reasoning over traffic events                                                         | Evaluating the reasoning capability over 6 tasks.                                     |
-| [TrafficSafety-2K](https://github.com/ozheng1993/TrafficSafetyGPT?tab=readme-ov-file)       | 2023                                                                          | arXiv          | Annotated traffic incident and crash report analysis                                               | GPT fine-tuning for safety situational awareness.                                     |
-| [NuPrompt](https://github.com/wudongming97/Prompt4Driving?tab=readme-ov-file)                              | 2023                                                                          | AAAI           | Object-centric language prompt set for 3D driving scenes                                           | Prompt-based driving task to predict the described object trajectory.                 |
-| [LaMPilot](https://github.com/PurdueDigitalTwin/LaMPilot)                               | 2024                                                                          | CVPR           | Code generation for autonomous driving decisions                                                   | CoT reasoning and instruction following for lane changes and speed adaptation.        |
-| [CoVLA](https://huggingface.co/datasets/turing-motors/CoVLA-Dataset)                                  | 2024                                                                          | arXiv          | Vision-Language-Action alignment (80+ hrs driving videos)                                          | Trajectory planning with natural language maneuver descriptions.                      |
-| [VLAAD](https://github.com/sungyeonparkk/vision-assistant-for-driving)                                  | 2024                                                                          | WACV           | Natural language description of driving scenarios                                                  | QA systems for driving situation understanding.                                       |
-| [CrashLLM](https://crashllm.github.io/)                            | 2024                                                                          | arXiv          | Crash outcome prediction (severity, injuries)                                                      | What-if causal analysis for traffic safety using 19k crash reports.                   |
-| [TransportBench](https://agi4engineering.github.io/TransportBench/)                  | 2024                                                                          | arXiv          | Answering undergraduate-level transportation engineering problem                                   | Benchmarking LLMs on planning, design, management, and control questions.             |
-| [Driving QA](https://github.com/wayveai/Driving-with-LLMs)                           | 2024                                                                          | ICRA           | 160k driving QA pairs with control commands                                                        | Interpreting scenarios, answering questions, and decision-making.                     |
-| [MAPLM](https://github.com/LLVM-AD/MAPLM)                                   | 2024                                                                          | CVPR           | Multimodal traffic scene dataset including context, image, point cloud, and HD map                 | Visual instruction-tuning LLMs and VLMs and vision QA tasks.                          |
-| [DrivingDojo](https://github.com/Robertwyq/Drivingdojo)                     | 2024                                                                          | NeurIPS        | Video clips with maneuvers, multi-agent interplay, and driving knowledge | Training and action instruction following benchmark for driving world models. |
-| [TransportationGames](https://arxiv.org/abs/2401.04471)   | 2024                                                                          | arXiv          | Benchmarks of LLMs in memorizing, understanding, and applying transportation knowledge on 10 tasks | Grounding (M)LLMs in transportation-related tasks.                                    |
-| [NuScenes-QA](https://github.com/qiantianwen/NuScenes-QA)                         | 2024                                                                          | AAAI           | Benchmark for vision QA in autonomous driving, including 34K visual scenes and 460K QA pairs       | Developing 3D detection and VQA techniques for end-to-end autonomous driving systems. |
-| [TUMTraffic-VideoQA](https://traffix-videoqa.github.io/)                | 2025                                                                          | aXiv           | Temporal traffic video understanding                                                               | Benchmarking video reasoning for multiple-choice video question answering.            |
-| [V2V-QA](https://eddyhkchiu.github.io/v2vllm.github.io/)                                  | 2025                                                                          | arXiv          | Cooperative perception via V2V communication                                                       | Fuse perception information from multiple CAVs and answer driving-related questions.  |
-| [DriveBench](https://drive-bench.github.io/)                               | 2025                                                                          | arXiv          | A comprehensive benchmark of VLMs for perception, prediction, planning, and explanation            | Visual grounding and multi-modal understanding for autonomous driving.                |
-
-## 📄 Representative surveys on LLMs and related techniques
+## 📄 Representative Surveys on LLMs
 | **Paper Title**                                                                        | **Year** | **Venue** | **Scope and Focus**                                                                                                                             |
-|---------------------------------------------------------------------------------------------|---------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:--------------------------------------------------------------------------------------------|:--------------|:---------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [A survey of Large Language Models](https://arxiv.org/abs/2303.18223)                                    | 2023          | arXiv          | Reviews the evolution of LLMs, pretraining, adaptation, post-training, evaluation, and benchmarks.                                                   |
 | [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196)                 | 2024          | arXiv          | Reviews LLM families (GPT, LLaMA, PaLM), training techniques, datasets, and benchmark performance.                                                   |
 | [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)  | 2023          | arXiv          | Introduces the progress of RAG paradigms, including the naive RAG, the advanced RAG, and the modular RAG.                                            |
-| [A Survey on In-context Learning](https://arxiv.org/abs/2301.00234)                                   | 2022          | arXiv          | Summarizes training strategies, prompt designing strategies, and various ICL application scenarios, such as data engineering and knowledge updating. |
+| [A Survey on In-context Learning](https://arxiv.org/abs/2301.00234)                                   | 2022          | arXiv          | Summarizes training strategies, prompt designing strategies, and various ICL application scenarios.                                                |
 | [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792)         | 2023          | arXiv          | Reviews methodology of SFT, SFT datasets, applications to different modalities, and influence factors.                                               |
 | [Towards Reasoning in Large Language Models: A Survey](https://arxiv.org/abs/2212.10403)               | 2022          | ACL            | Examines techniques for improving and eliciting reasoning in LLMs, methods and benchmarks for evaluating reasoning abilities.                        |
 | [A Survey of LLM Surveys](https://github.com/NiuTrans/ABigSurveyOfLLMs)               | 2024          | GitHub         | Compiles 150+ surveys across subfields like alignment, safety, and multimodal LLMs.                                                                  |
 
-
-
-## 📖 Popular open-source libraries for LLM development
-| **Library Name**     | **Basic Functions**                                                                       | **Use Cases**                                                             | 
-|---------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [Hugging Face Transformers](https://huggingface.co/docs/transformers) | Pretrained models (NLP, vision) and fine-tuning pipelines                                      | Model deployment, adapt tuning                                                 | 
+## 🛠️ Popular Open-Source Libraries for LLM Development
+| **Library Name**     | **Basic Functions**                                                                       | **Use Cases**                                                             |
+|:--------------------------|:-----------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
+| [Hugging Face Transformers](https://huggingface.co/docs/transformers) | Pretrained models (NLP, vision) and fine-tuning pipelines                                      | Model deployment, adapt tuning                                                 |
 | [DeepEval](https://github.com/confident-ai/deepeval)                  | Framework for evaluating LLM outputs using metrics like groundedness and bias                  | Educational applications, hallucination detection                              |
-| [RAGAS](https://github.com/explodinggradients/ragas)                     | Quantifies RAG pipeline performance                                                            | Context relevance scoring, answer quality                                      | 
-| [Sentence Transformers](https://www.sbert.net/)    | Generates dense text embeddings for semantic similarity tasks                                  | Survey item correlation analysis, retrieval                                    | 
+| [RAGAS](https://github.com/explodinggradients/ragas)                     | Quantifies RAG pipeline performance                                                            | Context relevance scoring, answer quality                                      |
+| [Sentence Transformers](https://www.sbert.net/)    | Generates dense text embeddings for semantic similarity tasks                                  | Survey item correlation analysis, retrieval                                    |
 | [LangChain](https://www.langchain.com/)                 | Chains LLM calls with external tools for multi-step workflows                                  | RAG, agentic reasoning, data preprocessing                                     |
-| [DeepSpeed](https://www.deepspeed.ai/)                 | A deep learning optimization library developed by Microsoft, which has been used to train LLMs | Distributed training, memory optimization, pipeline parallelism                | 
-| [FastMoE](https://fastmoe.ai/)                   | A specialized training library for MoE models based on PyTorch                                 | Transfer Transformer models to MoE models, data parallelism, model parallelism | 
-| [Ollama](https://ollama.ai)                    | Local LLM serving with support for models like Llama and Mistral                               | Offline inference, privacy-sensitive apps                                      | 
-| [OpenLLM](https://github.com/bentoml/OpenLLM)                  | Optimizes LLM deployment as production APIs compatible with OpenAI standards                   | Scalable model serving, cloud/on-prem hosting                                  | 
+| [DeepSpeed](https://www.deepspeed.ai/)                 | A deep learning optimization library from Microsoft for training large-scale models              | Distributed training, memory optimization, pipeline parallelism                |
+| [FastMoE](https://fastmoe.ai/)                   | A specialized training library for Mixture-of-Experts (MoE) models based on PyTorch             | Transfer Transformer models to MoE models, data parallelism, model parallelism |
+| [Ollama](https://ollama.com/)                    | Serve and run large language models locally                                                    | Offline inference, privacy-sensitive apps, local development                   |
+| [OpenLLM](https://github.com/bentoml/OpenLLM)                  | An open platform for operating LLMs in production                                              | Scalable model serving, cloud/on-prem hosting                                  |
 
-## 🖥️ A rouge estimate of the hardware requirements for fine-tuning and inference across LLaMA model sizes. 
-> BS = Batch Size. Estimated values marked "(est.)" derive from scaling laws. Inference rates measured at batch size 1 unless noted. Actual requirements and performance may differ for specific configurations.
+## 🖥️ Hardware Requirements for Fine-Tuning
+A rough estimate of hardware requirements for fine-tuning and inference across LLaMA model sizes.
+> BS = Batch Size. Estimated values marked `(est.)` derive from scaling laws. Inference rates are measured at batch size 1 unless noted. Actual requirements may differ.
 
 | **Model Size** | **Full Tuning GPUs**  | **LoRA Tuning GPUs**  | **Full Tuning BS/GPU** | **LoRA BS/GPU** | **Tuning Time (Hours)** | **Inference Rate (Tokens/s)** |
-|---------------------|----------------------------|----------------------------|-----------------------------|----------------------|------------------------------|------------------------------------|
+|:--------------------|:---------------------------|:---------------------------|:----------------------------|:---------------------|:-----------------------------|:-----------------------------------|
 | 7B         | 2×A100 80GB         | 1×RTX 4090 24GB     | 1-2                         | 4-8                  | 3-5                          | 27-30                              |
 | 13B        | 4×A100 80GB (est.)  | 2×A100 40GB         | 1                           | 2-4                  | 8-12                         | 18-22                              |
 | 70B        | 8×H200 80GB         | 4×H200 80GB         | 1                           | 1-2                  | 24-36                        | 12-15                              |
 | 405B      | 64×H200 80GB (est.) | 16×H200 80GB (est.) | 1 (est.)                    | 1 (est.)             | 72-96 (est.)                 | 5-8                                |
 
+## 🤝 How to Contribute
+We warmly welcome contributions from the community! If you have found a relevant paper, code, or resource that we missed, please feel free to:
+- **Open an Issue** to suggest an addition or report an error.
+- **Create a Pull Request** to directly add your content. Please follow the existing format to ensure consistency.
 
+Let's build the best resource for LLM4TR together!
 
 ## License
-
 This repository is released under the [MIT LICENSE](LICENSE).
+
