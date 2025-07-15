@@ -89,7 +89,7 @@ Here, we list representative papers according to the four roles defined in the L
 
 
 - **Context Encoder**
-    - **[TP-GPT: Real-time data informed intelligent chatbot for transportation surveillance and management](https://arxiv.org/abs/2405.03076)**. *Wang, B. et al.* **[arXiv 2024]**.
+    - **[TP-GPT: Real-time data informed intelligent chatbot for transportation surveillance and management](https://arxiv.org/abs/2405.03076)**. *Wang, B. et al.* **[IEEE ITSC 2024]**.
         - *Highlight: Generates SQL queries and natural language interpretations for large-scale traffic databases.*
     - **[ChatSUMO: Large language model for automating traffic scenario generation in simulation of urban mobility](https://arxiv.org/abs/2401.08272)**. *Li, S. et al.* **[T-IV 2024]**. `[code](https://github.com/Star-Scene/ChatSUMO)`
         - *Highlight: Enables non-experts to create SUMO traffic simulations using natural language commands.*
