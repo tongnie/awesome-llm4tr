@@ -91,35 +91,35 @@ Here, we list representative papers according to the four roles defined in the L
 - **Context Encoder**
     - **[TP-GPT: Real-time data informed intelligent chatbot for transportation surveillance and management](https://arxiv.org/abs/2405.03076)**. *Wang, B. et al.* **[IEEE ITSC 2024]**.
         - *Highlight: Generates SQL queries and natural language interpretations for large-scale traffic databases.*
-    - **[ChatSUMO: Large language model for automating traffic scenario generation in simulation of urban mobility](https://arxiv.org/abs/2401.08272)**. *Li, S. et al.* **[T-IV 2024]**. `[code](https://github.com/Star-Scene/ChatSUMO)`
+    - **[ChatSUMO: Large language model for automating traffic scenario generation in simulation of urban mobility](https://ieeexplore.ieee.org/abstract/document/10770822)**. *Li, S. et al.* **[T-IV 2024]**. 
         - *Highlight: Enables non-experts to create SUMO traffic simulations using natural language commands.*
-    - **[ChatScene: Knowledge-enabled safety-critical scenario generation for autonomous vehicles](https://arxiv.org/abs/2312.16436)**. *Zhang, J. et al.* **[CVPR 2024]**. `[project](https://sites.google.com/view/chatscene/)`
+    - **[ChatScene: Knowledge-enabled safety-critical scenario generation for autonomous vehicles](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_ChatScene_Knowledge-Enabled_Safety-Critical_Scenario_Generation_for_Autonomous_Vehicles_CVPR_2024_paper.html)**. *Zhang, J. et al.* **[CVPR 2024]**. [[Code]](https://github.com/javyduck/ChatScene)
         - *Highlight: Utilizes LLMs to decompose unstructured language into detailed, safety-critical driving scenarios for simulation.*
     - **[Can you text what is happening? Integrating pre-trained language encoders into trajectory prediction models for autonomous driving](https://arxiv.org/abs/2309.05282)**. *Keysan, A. et al.* **[arXiv 2023]**.
         - *Highlight: Employs BERT to encode textual scene descriptions, enhancing trajectory prediction models.*
-    - **[Video-to-text pedestrian monitoring (VTPM): Leveraging computer vision and large language models for privacy-preserve pedestrian activity monitoring at intersections](https://arxiv.org/abs/2401.11649)**. *Abdelrahman, A. S. et al.* **[arXiv 2024]**.
+    - **[Video-to-text pedestrian monitoring (VTPM): Leveraging computer vision and large language models for privacy-preserve pedestrian activity monitoring at intersections](https://arxiv.org/abs/2408.11649)**. *Abdelrahman, A. S. et al.* **[arXiv 2024]**.
         - *Highlight: Converts raw video feeds into anonymized text descriptors for real-time pedestrian behavior prediction while preserving privacy.*
 
 - **Data Analyzer**
-    - **[CrashLLM: Learning traffic crashes as language: Datasets, benchmarks, and what-if causal analyses](https://arxiv.org/abs/2406.10789)**. *Fan, Z. et al.* **[arXiv 2024]**. `[project](https://crashllm.github.io/)`
+    - **[CrashLLM: Learning traffic crashes as language: Datasets, benchmarks, and what-if causal analyses](https://arxiv.org/abs/2406.10789)**. *Fan, Z. et al.* **[arXiv 2024]**. [[Project]](https://crashllm.github.io/)
         - *Highlight: Fine-tunes LLMs to predict crash outcomes and analyze contributing factors from textual crash reports.*
-    - **[TrafficGPT: Viewing, processing and interacting with traffic foundation models](https://doi.org/10.1016/j.trf.2024.100007)**. *Zhang, S. et al.* **[Transport Policy 2024]**.
+    - **[TrafficGPT: Viewing, processing and interacting with traffic foundation models](https://doi.org/10.1016/j.tranpol.2024.03.006)**. *Zhang, S. et al.* **[Transport Policy 2024]**.
         - *Highlight: Demonstrates the zero-shot analytical capabilities of LLMs for traffic data analysis and management support.*
-    - **[Large language models in analyzing crash narratives—a comparative study of chatGPT, BARD and GPT-4](httpss://arxiv.org/abs/2308.13563)**. *Mumtarin, M. et al.* **[arXiv 2023]**.
+    - **[Large language models in analyzing crash narratives—a comparative study of chatGPT, BARD and GPT-4](https://arxiv.org/abs/2308.13563)**. *Mumtarin, M. et al.* **[arXiv 2023]**.
         - *Highlight: Evaluates the ability of various LLMs to extract information and answer questions from textual crash narratives.*
-    - **[A large language model framework to uncover underreporting in traffic crashes](https://doi.org/10.1016/j.jsr.2024.05.006)**. *Arteaga, C. & Park, J.* **[J. Safety Res. 2025]**.
+    - **[A large language model framework to uncover underreporting in traffic crashes](https://doi.org/10.1016/j.jsr.2024.11.009)**. *Arteaga, C. & Park, J.* **[J. Safety Res. 2025]**.
         - *Highlight: Uses LLMs with iterative prompt engineering to parse unstructured crash reports and identify underreported alcohol involvement.*
 
 - **Multimodal Fuser**
-    - **[When language and vision meet road safety: leveraging multimodal large language models for video-based traffic accident analysis](https://arxiv.org/abs/2501.10604)**. *Zhang, R. et al.* **[arXiv 2025]**. `[project](https://github.com/see-unsafe/SeeUnsafe)`
+    - **[When language and vision meet road safety: leveraging multimodal large language models for video-based traffic accident analysis](https://arxiv.org/abs/2501.10604)**. *Zhang, R. et al.* **[arXiv 2025]**. [[Project]](https://github.com/see-unsafe/SeeUnsafe)
         - *Highlight: An interactive framework where an MLLM classifies accidents, grounds visual elements, and generates structured reports from video.*
-    - **[RAG-Driver: Generalisable driving explanations with retrieval-augmented in-context learning in multi-modal large language model](https://arxiv.org/abs/2402.10828)**. *Yuan, J. et al.* **[arXiv 2024]**. `[code](https://github.com/Jiatong-Yuan/RAG-Driver)`
+    - **[RAG-Driver: Generalisable driving explanations with retrieval-augmented in-context learning in multi-modal large language model](https://arxiv.org/abs/2402.10828)**. *Yuan, J. et al.* **[Robotics: Science and Systems (RSS) 2024]**. [Code](https://github.com/Jiatong-Yuan/RAG-Driver)
         - *Highlight: Integrates a retrieval mechanism to provide expert demonstrations, improving the generation of human-readable driving actions.*
-    - **[Using multimodal large language models (MLLMs) for automated detection of traffic safety-critical events](https://doi.org/10.3390/vehicles6030076)**. *Abu Tami, M. et al.* **[Vehicles 2024]**.
+    - **[Using multimodal large language models (MLLMs) for automated detection of traffic safety-critical events](https://www.mdpi.com/2624-8921/6/3/74)**. *Abu Tami, M. et al.* **[Vehicles 2024]**.
         - *Highlight: Employs Gemini-Pro-Vision and LLaVa to detect safety-critical events by fusing textual, visual, and audio inputs.*
-    - **[On the road with GPT-4V(ision): Early explorations of visual-language model on autonomous driving](https://arxiv.org/abs/2311.05332)**. *Wen, L. et al.* **[arXiv 2023]**.
+    - **[On the road with GPT-4V(ision): Early explorations of visual-language model on autonomous driving](https://arxiv.org/abs/2311.05332)**. *Wen, L. et al.* **[arXiv 2023]**. [[Project]](https://github.com/PJLab-ADG/GPT4V-AD-Exploration)
         - *Highlight: A foundational exploration of GPT-4V's capabilities in various autonomous driving scenarios, showcasing its potential and limitations.*
-    - **[Enhancing vision-language models with scene graphs for traffic accident understanding](https://arxiv.org/abs/2404.09117)**. *Lohner, A. et al.* **[IAVVC 2024]**.
+    - **[Enhancing vision-language models with scene graphs for traffic accident understanding](https://arxiv.org/abs/2407.05910)**. *Lohner, A. et al.* **[IAVVC 2024]**.
         - *Highlight: Improves VLM understanding of complex traffic events by incorporating scene graphs to represent relationships between objects.*
 
 #### **LLMs as Knowledge Encoders**
@@ -134,9 +134,9 @@ Here, we list representative papers according to the four roles defined in the L
 - **Knowledge Extractor**
     - **[TransGPT: Multi-modal generative pre-trained transformer for transportation](https://arxiv.org/abs/2402.07233)**. *Wang, P. et al.* **[arXiv 2024]**.
         - *Highlight: A specialized LLM fine-tuned on transportation datasets to serve as a domain-specific knowledge base.*
-    - **[TrafficSafetyGPT: Tuning a pre-trained large language model to a domain-specific expert in transportation safety](https://arxiv.org/abs/2307.15311)**. *Zheng, O. et al.* **[arXiv 2023]**. `[code](https://github.com/ozheng1993/TrafficSafetyGPT)`
+    - **[TrafficSafetyGPT: Tuning a pre-trained large language model to a domain-specific expert in transportation safety](https://arxiv.org/abs/2307.15311)**. *Zheng, O. et al.* **[arXiv 2023]**. [[Project]](https://github.com/ozheng1993/TrafficSafetyGPT)
         - *Highlight: Grounds LLMs in safety-critical contexts by fine-tuning on a curated corpus of official guidebooks and generated instructions.*
-    - **[TARGET: Automated scenario generation from traffic rules for testing autonomous vehicles](https://arxiv.org/abs/2305.06018)**. *Deng, Y. et al.* **[arXiv 2023]**. `[code](https://github.com/OpenScenarioGeneration/TARGET)`
+    - **[TARGET: Automated scenario generation from traffic rules for testing autonomous vehicles](https://arxiv.org/abs/2305.06018)**. *Deng, Y. et al.* **[arXiv 2023]**. 
         - *Highlight: Employs LLMs to parse natural language traffic rules and generate formal, executable test scenarios for simulators.*
     - **[IncidentResponseGPT: Generating traffic incident response plans with generative artificial intelligence](https://arxiv.org/abs/2404.18550)**. *Grigorev, A. et al.* **[arXiv 2024]**.
         - *Highlight: Uses LLMs to synthesize regional guidelines and real-time data into structured, actionable incident response plans.*
@@ -144,9 +144,11 @@ Here, we list representative papers according to the four roles defined in the L
         - *Highlight: Extracts common traffic knowledge from scene images using a VLM to generate visual traffic knowledge graphs.*
 
 - **Knowledge Representation Embedder**
-    - **[Geolocation representation from large language models are generic enhancers for spatio-temporal learning](https://arxiv.org/abs/2408.12116)**. *He, J. et al.* **[arXiv 2024]**.
+    - **[Geolocation representation from large language models are generic enhancers for spatio-temporal learning](https://arxiv.org/abs/2408.12116)**. *He, J. et al.* **[AAAI 2025]**.
         - *Highlight: Elicits inherent geospatial knowledge from pretrained LLMs to create continuous vector representations of locations for downstream tasks.*
-    - **[Language conditioned traffic generation](https://arxiv.org/abs/2307.07947)**. *Tan, S. et al.* **[arXiv 2023]**. `[code](https://github.com/stephentan320/LCT-Gen)`
+    - **[Joint Estimation and Prediction of City-wide Delivery Demand: A Large Language Model Empowered Graph-based Learning Approach](https://doi.org/10.1016/j.tre.2025.104075)**. *Nie, T. et al.* **[TRE 2025]**. [[Code]](https://github.com/tongnie/IMPEL)
+        - *Highlight: Leveraging the powerful reasoning capabilities of LLMs to extract rich, transferable geospatial knowledge for demand estimation. *
+    - **[Language conditioned traffic generation](https://arxiv.org/abs/2307.07947)**. *Tan, S. et al.* **[CoRL 2023]**. [[Code]](https://github.com/stephentan320/LCT-Gen)
         - *Highlight: Converts textual descriptions into structured scene vectors to condition a Transformer model for realistic traffic behavior generation.*
     - **[ALT-Pilot: Autonomous navigation with language augmented topometric maps](https://arxiv.org/abs/2310.02324)**. *Omama, M. et al.* **[arXiv 2023]**. `[project](https://alt-pilot.github.io/)`
         - *Highlight: Uses LLMs to generate embeddings of language-based landmarks, enhancing vehicle localization in unmapped environments.*
