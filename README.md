@@ -15,7 +15,7 @@
 
 > A curated collection of papers, datasets, and resources related to **Large Language Models for Transportation (LLM4TR)**. 
 >
-> This repository serves as the online companion to our survey [**"Exploring the Roles of Large Language Models in Reshaping Transportation Systems: A Survey, Framework, and Roadmap"**]([https://arxiv.org/abs/2503.21411](https://arxiv.org/abs/2503.21411)). [![Paper page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](https://arxiv.org/abs/2503.21411)
+> This repository serves as the online companion to our survey [**"Exploring the Roles of Large Language Models in Reshaping Transportation Systems: A Survey, Framework, and Roadmap"**](https://doi.org/10.1016/j.ait.2025.100003), *Artificial Intelligence for Transportation (AIT), 1, 100003*. [![Paper page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](https://doi.org/10.1016/j.ait.2025.100003)
 >
 > 📢 The rapid advancement of Large Language Models (LLMs) is creating a paradigm shift in transportation research, moving from purely data-driven models to knowledge-infused intelligent systems. This repository aims to track the cutting-edge developments in this exciting field, serving as a hub for researchers, practitioners, and students. Stay tuned!
 > 
@@ -81,6 +81,13 @@ Here, we list representative papers according to the four roles defined in the L
 #### **LLMs as Information Processors**
 *Function: Process and fuse heterogeneous transportation data from multiple sources (text, sensor data, user feedback) through contextual encoding, analytical reasoning, and multimodal integration.*
 
+
+<p align="center">
+<img src="Assets/Fig4.png" width="600"/>
+</p>
+<h5 align=center>LLMs as Information Processors.</h5>
+
+
 - **Context Encoder**
     - **[TP-GPT: Real-time data informed intelligent chatbot for transportation surveillance and management]([link])**. *Wang, B. et al.* **[arXiv 2024]**. `[project]`
         - *Highlight: Generates SQL queries and natural language interpretations for large-scale traffic databases.*
@@ -118,6 +125,12 @@ Here, we list representative papers according to the four roles defined in the L
 #### **LLMs as Knowledge Encoders**
 *Function: Extract and formalize transportation domain knowledge from unstructured data through explicit rule extraction and latent semantic embedding.*
 
+<p align="center">
+<img src="Assets/Fig5.png" width="600"/>
+</p>
+<h5 align=center>LLMs as Knowledge Encoders.</h5>
+
+
 - **Knowledge Extractor**
     - **[TransGPT: Multi-modal generative pre-trained transformer for transportation]([link])**. *Wang, P. et al.* **[arXiv 2024]**. `[project]`
         - *Highlight: A specialized LLM fine-tuned on transportation datasets to serve as a domain-specific knowledge base.*
@@ -144,6 +157,12 @@ Here, we list representative papers according to the four roles defined in the L
 
 #### **LLMs as Component Generators**
 *Function: Create functional algorithms, synthetic environments, and evaluation frameworks through instruction-followed content generation.*
+
+<p align="center">
+<img src="Assets/Fig6.png" width="600"/>
+</p>
+<h5 align=center>LLMs as Component Generators.</h5>
+
 
 - **Function Designer**
     - **[AutoReward: Closed-loop reward design with large language models for autonomous driving]([link])**. *Han, X. et al.* **[T-IV 2024]**. `[code]`
@@ -175,6 +194,13 @@ Here, we list representative papers according to the four roles defined in the L
 
 #### **LLMs as Decision Facilitators**
 *Function: Predict traffic dynamics, optimize decisions, and simulate human-like reasoning, establishing new paradigms as generalized task solvers.*
+
+
+<p align="center">
+<img src="Assets/Fig7.png" width="600"/>
+</p>
+<h5 align=center>LLMs as Decision Facilitators.</h5>
+
 
 - **Decision Maker**
     - **[LLMLight: Large language models as traffic signal control agents: Capacity and opportunity]([link])**. *Lai, S. et al.* **[arXiv 2023]**. `[code]`
