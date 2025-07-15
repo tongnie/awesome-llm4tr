@@ -113,7 +113,7 @@ Here, we list representative papers according to the four roles defined in the L
 - **Multimodal Fuser**
     - **[When language and vision meet road safety: leveraging multimodal large language models for video-based traffic accident analysis](https://arxiv.org/abs/2501.10604)**. *Zhang, R. et al.* **[arXiv 2025]**. [[Project]](https://github.com/see-unsafe/SeeUnsafe)
         - *Highlight: An interactive framework where an MLLM classifies accidents, grounds visual elements, and generates structured reports from video.*
-    - **[RAG-Driver: Generalisable driving explanations with retrieval-augmented in-context learning in multi-modal large language model](https://arxiv.org/abs/2402.10828)**. *Yuan, J. et al.* **[Robotics: Science and Systems (RSS) 2024]**. [Code](https://github.com/Jiatong-Yuan/RAG-Driver)
+    - **[RAG-Driver: Generalisable driving explanations with retrieval-augmented in-context learning in multi-modal large language model](https://arxiv.org/abs/2402.10828)**. *Yuan, J. et al.* **[Robotics: Science and Systems (RSS) 2024]**. [[Code]](https://github.com/Jiatong-Yuan/RAG-Driver)
         - *Highlight: Integrates a retrieval mechanism to provide expert demonstrations, improving the generation of human-readable driving actions.*
     - **[Using multimodal large language models (MLLMs) for automated detection of traffic safety-critical events](https://www.mdpi.com/2624-8921/6/3/74)**. *Abu Tami, M. et al.* **[Vehicles 2024]**.
         - *Highlight: Employs Gemini-Pro-Vision and LLaVa to detect safety-critical events by fusing textual, visual, and audio inputs.*
