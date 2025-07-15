@@ -343,7 +343,6 @@ An overview of the current research trends, visualized according to our taxonomy
 
 ---
 ## 📋 Summary of Language-Enhanced Datasets
-Here is an expanded list of datasets and benchmarks, with new entries integrated from the [Awesome-VLM-AD-ITS](https://github.com/ge25nab/Awesome-VLM-AD-ITS) repository.
 
 | **Dataset**                                             | **Year** | **Venue** | **Task**                                                                                      | **Use Case in LLM Development**                                                  |
 |:-------------------------------------------------------------|:--------:|:---------:|:--------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
