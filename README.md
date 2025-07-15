@@ -267,7 +267,7 @@ An overview of the current research trends, visualized according to our taxonomy
 
 ---
 ## 💡 Foundational LLM Techniques
-> This section lists core papers on the foundational techniques of LLMs, providing essential context for their application in transportation. It is designed to be a comprehensive resource for understanding *how* LLMs work. This list is inspired by and integrated with resources from the excellent [**RUCAIBox/LLMSurvey**](https://github.com/RUCAIBox/LLMSurvey).
+> This section lists core papers on the foundational techniques of LLMs, providing essential context for their application in transportation. It is designed to be a comprehensive resource for understanding *how* LLMs work.
 
 #### 1. Core Architectures & Concepts
 - **[Attention Is All You Need](https://arxiv.org/abs/1706.03762)**. *Vaswani, A. et al.* **[NeurIPS 2017]**.
