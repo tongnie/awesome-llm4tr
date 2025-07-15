@@ -207,31 +207,31 @@ Here, we list representative papers according to the four roles defined in the L
 - **Decision Maker**
     - **[Large language models as traffic signal control agents: Capacity and opportunity](https://arxiv.org/abs/2312.16044)**. *Lai, S. et al.* **[arXiv 2023]**.
         - *Highlight: A pioneering work that employs GPT models as intuitive, human-like decision-makers for traffic light optimization.*
-    - **[DriveLM: Driving with graph visual question answering](https://arxiv.org/abs/2312.14150)**. *Sima, C. et al.* **[ECCV 2024]**. `[[Project]](https://github.com/OpenDriveLab/DriveLM)`
+    - **[DriveLM: Driving with graph visual question answering](https://arxiv.org/abs/2312.14150)**. *Sima, C. et al.* **[ECCV 2024]**. [[Project]](https://github.com/OpenDriveLab/DriveLM)
         - *Highlight: Structures scene understanding as Graph Visual Question Answering, enabling multi-step reasoning for autonomous driving decisions.*
     - **[DriveGPT4: Interpretable end-to-end autonomous driving via large language model](https://arxiv.org/abs/2310.01412)**. *Xu, Z. et al.* **[IEEE RAL 2024]**. [[Project]](https://tonyxuqaq.github.io/projects/DriveGPT4/)
         - *Highlight: An end-to-end framework that processes video and text queries to directly predict control signals while providing rationale.*
-    - **[GPT-Driver: Learning to drive with gpt](https://arxiv.org/abs/2310.01415)**. *Mao, J. et al.* **[arXiv 2023]**.
+    - **[GPT-Driver: Learning to drive with gpt](https://arxiv.org/abs/2310.01415)**. *Mao, J. et al.* **[arXiv 2023]**.  [[Code]](https://github.com/PointsCoder/GPT-Driver)
         - *Highlight: Reformulates motion planning as a language modeling problem, representing inputs and outputs as language tokens.*
-    - **[COMAL: Collaborative multi-agent large language models for mixed-autonomy traffic](https://arxiv.org/abs/2410.14368)**. *Yao, H. et al.* **[arXiv 2024]**. `[project](https://sites.google.com/view/comal-llm)`
+    - **[COMAL: Collaborative multi-agent large language models for mixed-autonomy traffic](https://arxiv.org/abs/2410.14368)**. *Yao, H. et al.* **[arXiv 2024]**. [[Code]](https://github.com/Hyan-Yao/CoMAL)
         - *Highlight: Integrates multiple LLM agents to optimize traffic flow in mixed-autonomy settings through collaborative communication.*
 
 - **Decision Guider**
-    - **[AccidentGPT: Accident analysis and prevention from V2X environmental perception with multi-modal large model](https://arxiv.org/abs/2312.13156)**. *Wang, L. et al.* **[arXiv 2023]**.
+    - **[AccidentGPT: Accident analysis and prevention from V2X environmental perception with multi-modal large model](https://arxiv.org/abs/2312.13156)**. *Wang, L. et al.* **[arXiv 2023]**. [[Project]](https://accidentgpt.github.io/)
         - *Highlight: A multimodal safety advisor that anticipates accidents and issues dialogue-based contextual recommendations.*
-    - **[LanguageMPC: Large language models as decision makers for autonomous driving](https://arxiv.org/abs/2310.03026)**. *Sha, H. et al.* **[arXiv 2023]**. `[code](https://github.com/PJLab-ADG/LanguageMPC)`
+    - **[LanguageMPC: Large language models as decision makers for autonomous driving](https://arxiv.org/abs/2310.03026)**. *Sha, H. et al.* **[arXiv 2023]**. [[Project]](https://sites.google.com/view/llm-mpc)
         - *Highlight: Uses an LLM as a high-level planner to reason about traffic scenarios and adjust the priorities of a low-level Model Predictive Control system.*
     - **[ChatGPT as your vehicle Co-pilot: An initial attempt](https://doi.org/10.1109/TIV.2023.3323533)**. *Wang, S. et al.* **[T-IV 2023]**.
         - *Highlight: Embeds ChatGPT as a vehicle co-pilot that translates natural language commands into domain-specific actions and trajectory plans.*
 
 - **Spatial-Temporal Predictor**
-    - **[TPLLM: A traffic prediction framework based on pretrained large language models](https://arxiv.org/abs/2403.02221)**. *Ren, Y. et al.* **[arXiv 2024]**. `[code](https://github.com/yuxuanren/TPLLM)`
+    - **[TPLLM: A traffic prediction framework based on pretrained large language models](https://arxiv.org/abs/2403.02221)**. *Ren, Y. et al.* **[arXiv 2024]**. 
         - *Highlight: Introduces a LoRA fine-tuning approach for GPT-2 to perform traffic prediction efficiently.*
-    - **[Spatial-temporal large language model for traffic prediction](https://arxiv.org/abs/2401.10134)**. *Liu, C. et al.* **[arXiv 2024]**. `[code](https://github.com/liuc001/ST-LLM)`
+    - **[Spatial-temporal large language model for traffic prediction](https://arxiv.org/abs/2401.10134)**. *Liu, C. et al.* **[arXiv 2024]**. [[Code]]https://github.com/ChenxiLiu-HNU/ST-LLM)
         - *Highlight: Adopts a GPT-like architecture with a unified spatial-temporal embedding module for traffic forecasting.*
     - **[MobilityGPT: Enhanced human mobility modeling with a GPT model](https://arxiv.org/abs/2402.03264)**. *Haydari, A. et al.* **[arXiv 2024]**.
         - *Highlight: Formulates human mobility modeling as an autoregressive generation task and fine-tunes it using Reinforcement Learning from Trajectory Feedback (RLTF).*
-    - **[Large language models are zero-shot time series forecasters](https://arxiv.org/abs/2310.07820)**. *Gruver, N. et al.* **[NeurIPS 2023]**.
+    - **[Large language models are zero-shot time series forecasters](https://arxiv.org/abs/2310.07820)**. *Gruver, N. et al.* **[NeurIPS 2023]**. [[Code]](https://github.com/ngruver/llmtime)
         - *Highlight: A foundational paper demonstrating that pretrained LLMs can perform zero-shot time series forecasting surprisingly well.*
     - **[A universal model for human mobility prediction](https://arxiv.org/abs/2412.15294)**. *Long, Q. et al.* **[arXiv 2024]**.
         - *Highlight: Proposes UniMob, a universal model for human mobility that unifies individual trajectory and crowd flow prediction paradigms using a diffusion Transformer.*
