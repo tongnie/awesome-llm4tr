@@ -150,11 +150,11 @@ Here, we list representative papers according to the four roles defined in the L
         - *Highlight: Leveraging the powerful reasoning capabilities of LLMs to extract rich, transferable geospatial knowledge for demand estimation. *
     - **[Language conditioned traffic generation](https://arxiv.org/abs/2307.07947)**. *Tan, S. et al.* **[CoRL 2023]**. [[Code]](https://github.com/stephentan320/LCT-Gen)
         - *Highlight: Converts textual descriptions into structured scene vectors to condition a Transformer model for realistic traffic behavior generation.*
-    - **[ALT-Pilot: Autonomous navigation with language augmented topometric maps](https://arxiv.org/abs/2310.02324)**. *Omama, M. et al.* **[arXiv 2023]**. `[project](https://alt-pilot.github.io/)`
+    - **[ALT-Pilot: Autonomous navigation with language augmented topometric maps](https://arxiv.org/abs/2310.02324)**. *Omama, M. et al.* **[arXiv 2023]**. 
         - *Highlight: Uses LLMs to generate embeddings of language-based landmarks, enhancing vehicle localization in unmapped environments.*
-    - **[Large language models powered context-aware motion prediction](https://arxiv.org/abs/2403.11057)**. *Zheng, X. et al.* **[arXiv 2024]**.
+    - **[Large language models powered context-aware motion prediction](https://arxiv.org/abs/2403.11057)**. *Zheng, X. et al.* **[IROS 2024]**. [[Code]](https://github.com/AIR-DISCOVER/LLM-Augmented-MTR)
         - *Highlight: Integrates GPT-4V-derived embeddings as "Transportation Context Maps" to improve motion forecasting.*
-    - **[Classifying pedestrian maneuver types using the advanced language model](https://doi.org/10.1177/03611981231175620)**. *Das, S. et al.* **[TRR 2023]**.
+    - **[Classifying pedestrian maneuver types using the advanced language model](https://journals.sagepub.com/doi/abs/10.1177/03611981231155187)**. *Das, S. et al.* **[TRR 2023]**.
         - *Highlight: Applies a fine-tuned BERT model to classify pedestrian maneuvers from unstructured police crash narratives based on text embeddings.*
 
 #### **LLMs as Component Generators**
@@ -167,31 +167,31 @@ Here, we list representative papers according to the four roles defined in the L
 
 
 - **Function Designer**
-    - **[AutoReward: Closed-loop reward design with large language models for autonomous driving](https://arxiv.org/abs/2403.02340)**. *Han, X. et al.* **[T-IV 2024]**. `[code](https://github.com/hanx1996/AutoReward)`
+    - **[AutoReward: Closed-loop reward design with large language models for autonomous driving](https://doi.org/10.1109/TIV.2024.3485964)**. *Han, X. et al.* **[T-IV 2024]**. 
         - *Highlight: Automates the design of reward functions for RL-based autonomous driving using concrete linguistic goals.*
-    - **[Large language model-enhanced reinforcement learning for generic bus holding control strategies](https://arxiv.org/abs/2410.10212)**. *Yu, J. et al.* **[arXiv 2024]**.
+    - **[Large language model-enhanced reinforcement learning for generic bus holding control strategies](https://doi.org/10.1016/j.tre.2025.104142)**. *Yu, J. et al.* **[TRE 2025]**.
         - *Highlight: Leverages LLMs to automate reward function design for RL-based public transit control through a multi-module framework.*
-    - **[Eureka: Human-level reward design via coding large language models](https://arxiv.org/abs/2310.12931)**. *Ma, Y.J. et al.* **[arXiv 2023]**. `[project](https://eureka-rl.github.io/)`
+    - **[Eureka: Human-level reward design via coding large language models](https://arxiv.org/abs/2310.12931)**. *Ma, Y.J. et al.* **[ICLR 2024]**. [[Project]](https://eureka-rl.github.io/)
         - *Highlight: A seminal work on using LLMs to write reward functions for complex RL tasks, demonstrating human-level performance.*
-    - **[Can chatgpt enable its? The case of mixed traffic control via reinforcement learning](https://doi.org/10.1109/ITSC57777.2023.10422262)**. *Villarreal, M. et al.* **[ITSC 2023]**.
+    - **[Can chatgpt enable its? The case of mixed traffic control via reinforcement learning](https://ieeexplore.ieee.org/document/10422410)**. *Villarreal, M. et al.* **[ITSC 2023]**.
         - *Highlight: Investigates the use of ChatGPT to help non-experts design RL policies for mixed traffic control, improving user success rates.*
 
 - **World Simulator**
-    - **[MagicDrive: Street view generation with diverse 3D geometry control](https://arxiv.org/abs/2310.02601)**. *Gao, R. et al.* **[arXiv 2023]**. `[project](https://gaor-uiuc.github.io/magicdrive.github.io/)`
+    - **[MagicDrive: Street view generation with diverse 3D geometry control](https://arxiv.org/abs/2310.02601)**. *Gao, R. et al.* **[ICLR 2024]**. [[Project]](https://gaor-uiuc.github.io/magicdrive.github.io/)
         - *Highlight: A pioneering generative model for creating high-fidelity, controllable street-view images and videos from various signals.*
-    - **[DriveDreamer-2: LLM-enhanced world models for diverse driving video generation](https://arxiv.org/abs/2403.06845)**. *Zhao, G. et al.* **[arXiv 2024]**. `[project](https://github.com/GGuo-g/DriveDreamer-2)`
+    - **[DriveDreamer-2: LLM-enhanced world models for diverse driving video generation](https://arxiv.org/abs/2403.06845)**. *Zhao, G. et al.* **[arXiv 2024]**. [[Project]](https://github.com/GGuo-g/DriveDreamer-2)
         - *Highlight: Integrates an LLM interface to convert user queries into agent trajectories, generating customized HD maps and driving videos.*
-    - **[GAIA-1: A generative world model for autonomous driving](https://arxiv.org/abs/2309.17080)**. *Hu, A. et al.* **[arXiv 2023]**. `[project](https://www.wayve.ai/blog/introducing-gaia-1-a-generative-world-model-for-autonomous-driving/)`
+    - **[GAIA-1: A generative world model for autonomous driving](https://arxiv.org/abs/2309.17080)**. *Hu, A. et al.* **[arXiv 2023]**. [[Project]](https://wayve.ai/thinking/introducing-gaia1/)
         - *Highlight: A world model that can generate realistic driving scenarios from video and action inputs, used for closed-loop simulation.*
-    - **[DriveMM: All-in-one large multimodal model for autonomous driving](https://arxiv.org/abs/2401.07687)**. *Huang, Z. et al.* **[arXiv 2024]**.
+    - **[DriveMM: All-in-one large multimodal model for autonomous driving](https://arxiv.org/abs/2412.07689)**. *Huang, Z. et al.* **[arXiv 2024]**. [[Code]](https://github.com/zhijian11/DriveMM)
         - *Highlight: Synthesizes heterogeneous sensor inputs to simulate dynamic driving environments and generate actionable outputs.*
 
 - **Evaluator & Interpreter**
-    - **[CRITICAL: Enhancing autonomous vehicle training with language model integration and critical scenario generation](https://arxiv.org/abs/2404.08570)**. *Tian, H. et al.* **[arXiv 2024]**. `[project](https://critical-av.github.io/)`
+    - **[CRITICAL: Enhancing autonomous vehicle training with language model integration and critical scenario generation](https://arxiv.org/abs/2404.08570)**. *Tian, H. et al.* **[arXiv 2024]**. [[Code]](https://github.com/zachtian/CRITICAL)
         - *Highlight: A framework that uses LLMs to interpret RL training episodes, evaluate failure patterns, and generate critical scenarios for self-refinement.*
-    - **[iLLM-TSC: Integration reinforcement learning and large language model for traffic signal control policy improvement](https://arxiv.org/abs/2407.06025)**. *Pang, A. et al.* **[arXiv 2024]**.
+    - **[iLLM-TSC: Integration reinforcement learning and large language model for traffic signal control policy improvement](https://arxiv.org/abs/2407.06025)**. *Pang, A. et al.* **[arXiv 2024]**. [[Code]](https://github.com/Traffic-Alpha/iLLM-TSC)
         - *Highlight: An LLM acts as a corrective layer to evaluate and refine decisions made by an RL agent for traffic signal control.*
-    - **[DrPlanner: Diagnosis and repair of motion planners for automated vehicles using large language models](https://arxiv.org/abs/2406.01272)**. *Lin, Y. et al.* **[RAL 2024]**.
+    - **[DrPlanner: Diagnosis and repair of motion planners for automated vehicles using large language models](https://arxiv.org/abs/2403.07470)**. *Lin, Y. et al.* **[IEEE RAL 2024]**. [[Code]](https://github.com/CommonRoad/drplanner)
         - *Highlight: Uses LLMs to provide feedback and suggest refinements for both rule-based and optimization-based driving policies.*
 
 #### **LLMs as Decision Facilitators**
@@ -207,9 +207,9 @@ Here, we list representative papers according to the four roles defined in the L
 - **Decision Maker**
     - **[Large language models as traffic signal control agents: Capacity and opportunity](https://arxiv.org/abs/2312.16044)**. *Lai, S. et al.* **[arXiv 2023]**.
         - *Highlight: A pioneering work that employs GPT models as intuitive, human-like decision-makers for traffic light optimization.*
-    - **[DriveLM: Driving with graph visual question answering](https://arxiv.org/abs/2312.14152)**. *Sima, C. et al.* **[CVPR 2024]**. `[project](https://sites.google.com/view/drivelm)`
+    - **[DriveLM: Driving with graph visual question answering](https://arxiv.org/abs/2312.14150)**. *Sima, C. et al.* **[ECCV 2024]**. `[[Project]](https://github.com/OpenDriveLab/DriveLM)`
         - *Highlight: Structures scene understanding as Graph Visual Question Answering, enabling multi-step reasoning for autonomous driving decisions.*
-    - **[DriveGPT4: Interpretable end-to-end autonomous driving via large language model](https://arxiv.org/abs/2402.02927)**. *Xu, Z. et al.* **[RAL 2024]**. `[project](https://github.com/zhengzx-ga/DriveGPT4)`
+    - **[DriveGPT4: Interpretable end-to-end autonomous driving via large language model](https://arxiv.org/abs/2310.01412)**. *Xu, Z. et al.* **[IEEE RAL 2024]**. [[Project]](https://tonyxuqaq.github.io/projects/DriveGPT4/)
         - *Highlight: An end-to-end framework that processes video and text queries to directly predict control signals while providing rationale.*
     - **[GPT-Driver: Learning to drive with gpt](https://arxiv.org/abs/2310.01415)**. *Mao, J. et al.* **[arXiv 2023]**.
         - *Highlight: Reformulates motion planning as a language modeling problem, representing inputs and outputs as language tokens.*
