@@ -8,7 +8,7 @@
 
 
 <p align="center">
-<img src="Assets/Fig1.png" width="680"/>
+<img src="Assets/Fig1.png" width="700"/>
 </p>
 <h5 align=center>The LLM4TR framework proposed in this survey.</h5>
 
@@ -69,7 +69,7 @@ If you find our survey or this repository useful for your research, please cite 
 *Definition*: **LLM4TR** refers to the methodological paradigm that systematically harnesses emergent capabilities of LLMs to enhance transportation tasks through four synergistic roles: transforming raw data into understandable insights, distilling domain-specific knowledge into computable structures, synthesizing adaptive system components, and orchestrating optimal decisions. We survey the existing literature and summarize how LLMs are exploited to solve transportation problems from a methodological perspective, i.e., the roles of LLMs in transportation systems. They generally include four aspects:
 
 <p align="center">
-<img src="Assets/Fig2.png" width="780"/>
+<img src="Assets/Fig2.png" width="800"/>
 </p>
 <h5 align=center>The literature classification procedure in this survey.</h5>
 
