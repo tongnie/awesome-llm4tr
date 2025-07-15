@@ -428,7 +428,7 @@ A curated list of other high-quality GitHub repositories and resource collection
 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed)                      | LLM Training                                  | A deep learning optimization library that makes large model training and inference more efficient.       |
 | [bentoml/OpenLLM](https://github.com/bentoml/OpenLLM)                               | LLM Deployment                                | An open platform for operating LLMs in production, simplifying deployment and scaling.                   |
 | [jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision)  | Computer Vision                               | A classic, curated list of essential resources for all things computer vision.                           |
-| [wolverinn/awesome-diffusion-models](https://github.com/wolverinn/awesome-diffusion-models) | Diffusion Models | A collection of resources for diffusion models, crucial for generative tasks like world simulation. |
+| [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) | Diffusion Models | A collection of resources for diffusion models, crucial for generative tasks like world simulation. |
 
 
 ---
