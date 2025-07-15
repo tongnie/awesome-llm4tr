@@ -267,30 +267,75 @@ An overview of the current research trends, visualized according to our taxonomy
 
 ---
 ## 💡 Foundational LLM Techniques
-> This section lists core papers on the foundational techniques of LLMs, providing essential context for their application in transportation. Many of these seminal works are summarized from the excellent [**RUCAIBox/LLMSurvey**](https://github.com/RUCAIBox/LLMSurvey).
+> This section lists core papers on the foundational techniques of LLMs, providing essential context for their application in transportation. It is designed to be a comprehensive resource for understanding *how* LLMs work. This list is inspired by and integrated with resources from the excellent [**RUCAIBox/LLMSurvey**](https://github.com/RUCAIBox/LLMSurvey).
 
-- **Foundational Architectures**
-    - **[Attention is All you Need](https://arxiv.org/abs/1706.03762)**. *Vaswani, A. et al.* **[NeurIPS 2017]**.
-        - *Highlight: Introduced the Transformer architecture, the foundation of nearly all modern LLMs.*
-- **Pre-training Paradigms**
-    - **[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)**. *Devlin, J. et al.* **[NAACL 2019]**.
-        - *Highlight: Pioneered bidirectional pre-training (autoencoding) using Masked Language Modeling (MLM), revolutionizing NLP.*
-    - **[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)**. *Radford, A. et al.* **[OpenAI Blog 2019]**.
-        - *Highlight: Introduced GPT-2, demonstrating that large autoregressive language models can perform downstream tasks zero-shot.*
-    - **[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)**. *Brown, T. et al.* **[NeurIPS 2020]**.
-        - *Highlight: Introduced GPT-3 and popularized in-context learning, showing massive scale unlocks emergent abilities.*
-- **Alignment & Fine-tuning Techniques**
-    - **[Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)**. *Ouyang, L. et al.* **[NeurIPS 2022]**.
-        - *Highlight: The core paper behind InstructGPT (the basis for ChatGPT), detailing Reinforcement Learning from Human Feedback (RLHF).*
-    - **[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)**. *Hu, E.J. et al.* **[ICLR 2022]**.
-        - *Highlight: Introduced a highly popular and parameter-efficient fine-tuning (PEFT) method by adapting only low-rank matrices.*
-    - **[Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416)**. *Chung, H.W. et al.* **[arXiv 2022]**.
-        - *Highlight: The Flan-T5 paper, which showed that fine-tuning on a massive collection of diverse tasks dramatically improves zero-shot performance.*
-- **Reasoning**
-    - **[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)**. *Wei, J. et al.* **[NeurIPS 2022]**.
-        - *Highlight: A groundbreaking discovery that prompting LLMs to generate step-by-step reasoning significantly improves performance on complex tasks.*
-    - **[Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)**. *Yao, S. et al.* **[NeurIPS 2023]**.
-        - *Highlight: Generalizes Chain-of-Thought by allowing LLMs to explore multiple reasoning paths in a tree structure.*
+#### 1. Core Architectures & Concepts
+- **[Attention Is All You Need](https://arxiv.org/abs/1706.03762)**. *Vaswani, A. et al.* **[NeurIPS 2017]**.
+    - *Highlight: Introduced the **Transformer**, the fundamental architecture based on self-attention that underpins nearly all modern LLMs.*
+- **[Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)**. *Kaplan, J. et al.* **[arXiv 2020]**.
+    - *Highlight: Established the predictable, power-law relationship between model performance, model size, dataset size, and compute, justifying the "bigger is better" paradigm.*
+- **[Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961)**. *Fedus, W. et al.* **[JMLR 2022]**.
+    - *Highlight: Introduced the **Mixture of Experts (MoE)** layer as an effective way to massively scale model parameters without a proportional increase in computational cost.*
+
+#### 2. Seminal Pre-trained Models
+- **[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)**. *Radford, A. et al.* **[OpenAI Tech Report 2018]**.
+    - *Highlight: The original **GPT-1**, which demonstrated the effectiveness of generative pre-training for downstream NLP tasks.*
+- **[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)**. *Devlin, J. et al.* **[NAACL 2019]**.
+    - *Highlight: Pioneered bidirectional pre-training (autoencoding) using Masked Language Modeling (MLM), which led to a significant leap in performance on understanding-based tasks.*
+- **[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)**. *Radford, A. et al.* **[OpenAI Blog 2019]**.
+    - *Highlight: Introduced **GPT-2** and showcased its impressive zero-shot learning capabilities, proving that large models could perform tasks they were not explicitly trained for.*
+- **[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)**. *Raffel, C. et al.* **[JMLR 2020]**.
+    - *Highlight: Introduced **T5**, which framed every NLP task as a text-to-text problem, creating a versatile and powerful framework.*
+- **[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)**. *Brown, T. et al.* **[NeurIPS 2020]**.
+    - *Highlight: Introduced **GPT-3** and popularized **in-context learning**, showing that massive scale (175B parameters) unlocks emergent abilities without gradient updates.*
+
+#### 3. Instruction Tuning & Alignment
+- **[Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652)**. *Wei, J. et al.* **[ICLR 2022]**.
+    - *Highlight: The predecessor to Flan, showing that fine-tuning on a collection of NLP tasks (a form of **Supervised Fine-Tuning, SFT**) dramatically improves zero-shot performance on unseen tasks.*
+- **[Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)**. *Ouyang, L. et al.* **[NeurIPS 2022]**.
+    - *Highlight: The core paper behind InstructGPT (the basis for ChatGPT), detailing **Reinforcement Learning from Human Feedback (RLHF)** to align models with user intent.*
+- **[Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073)**. *Bai, Y. et al.* **[arXiv 2022]**.
+    - *Highlight: Proposed a method for training a harmless AI assistant without human labels by having the model critique and revise its own responses based on a given "constitution."*
+- **[Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)**. *Rafailov, R. et al.* **[NeurIPS 2023]**.
+    - *Highlight: Introduced **DPO**, a simpler and more stable alternative to RLHF that extracts a reward model directly from preference data and fine-tunes the policy in a single stage.*
+
+#### 4. Parameter-Efficient Fine-Tuning (PEFT)
+- **[Parameter-Efficient Transfer Learning for NLP](https://arxiv.org/abs/1902.00751)**. *Houlsby, N. et al.* **[ICML 2019]**.
+    - *Highlight: Introduced **Adapter Tuning**, where small, trainable modules are inserted between Transformer layers, freezing the rest of the model.*
+- **[Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/abs/2101.00190)**. *Li, X.L. & Liang, P.* **[ACL 2021]**.
+    - *Highlight: Proposed learning a small, continuous task-specific vector (prefix) that is prepended to the model's internal states, an early and influential PEFT method.*
+- **[The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691)**. *Lester, B. et al.* **[EMNLP 2021]**.
+    - *Highlight: Simplified Prefix-Tuning by learning "soft prompts" only at the input layer, showing it becomes competitive with full fine-tuning at sufficient scale.*
+- **[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)**. *Hu, E.J. et al.* **[ICLR 2022]**.
+    - *Highlight: Introduced a highly popular and effective PEFT method by adapting only low-rank matrices of the weight updates, making fine-tuning much more memory-efficient.*
+
+#### 5. Advanced Reasoning & Prompting
+- **[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)**. *Wei, J. et al.* **[NeurIPS 2022]**.
+    - *Highlight: A groundbreaking discovery that simply prompting LLMs with "Let's think step by step" (**Zero-shot CoT**) or providing few-shot exemplars with reasoning steps unlocks complex reasoning abilities.*
+- **[Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171)**. *Wang, X. et al.* **[ICLR 2023]**.
+    - *Highlight: An enhancement to CoT where multiple reasoning paths are sampled, and the most consistent answer is chosen by majority vote, improving robustness.*
+- **[ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)**. *Yao, S. et al.* **[ICLR 2023]**.
+    - *Highlight: A foundational paradigm for agents where the LLM interleaves **Rea**soning (thought) traces and **Act**ions (e.g., tool use), enabling dynamic interaction with external environments.*
+- **[Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)**. *Yao, S. et al.* **[NeurIPS 2023]**.
+    - *Highlight: Generalizes Chain-of-Thought by allowing LLMs to explore multiple reasoning paths in a tree structure, performing deliberate search and lookahead.*
+
+#### 6. Integrating External Knowledge & Tools
+- **[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)**. *Lewis, P. et al.* **[NeurIPS 2020]**.
+    - *Highlight: The original **RAG** paper, which proposed combining a pre-trained language model with a non-parametric memory (a retriever) to ground responses in external knowledge.*
+- **[Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)**. *Schick, T. et al.* **[NeurIPS 2023]**.
+    - *Highlight: A framework where an LLM learns to use external tools (e.g., calculators, search engines) by teaching itself to generate API calls during pre-training.*
+
+#### 7. Efficiency & Optimization
+- **[QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)**. *Dettmers, T. et al.* **[NeurIPS 2023]**.
+    - *Highlight: A breakthrough technique that enables fine-tuning massive models on a single GPU by quantizing the base model to 4-bit and using LoRA on top.*
+- **[Fast Decoding from Language Models with Speculative Sampling](https://arxiv.org/abs/2211.17192)**. *Leviathan, Y. et al.* **[ICML 2023]**.
+    - *Highlight: Introduced **Speculative Decoding**, a popular method to accelerate inference by using a small, fast draft model to generate token sequences that are then verified by the large model.*
+
+#### 8. Key Evaluation Benchmarks
+- **[Measuring Massive Multitask Language Understanding](https://arxiv.org/abs/2009.03300)**. *Hendrycks, D. et al.* **[ICLR 2021]**.
+    - *Highlight: Introduced **MMLU**, one of the most widely used benchmarks for evaluating the world knowledge and problem-solving abilities of LLMs across a wide range of subjects.*
+- **[Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models](https://arxiv.org/abs/2206.04615)**. *Srivastava, A. et al.* **[TMLR 2023]**.
+    - *Highlight: Introduced **BIG-bench**, a massive collaborative benchmark of over 200 tasks designed to probe for emergent abilities and future capabilities of language models.*
 
 
 
