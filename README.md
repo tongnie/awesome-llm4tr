@@ -208,8 +208,8 @@ Here, we list representative papers according to the four roles defined in the L
     - **[UniTraj: Universal human trajectory modeling from billion-scale worldwide traces]([link])**. *Zhu, Y. et al.* **[arXiv 2024]**.
         - *Highlight: Proposes a universal model for human mobility that unifies individual trajectory and crowd flow prediction paradigms.*
 
----
 
+---
 ## 📈 Research Trend
 An overview of the current research trends, visualized according to our taxonomy.
 
@@ -218,6 +218,8 @@ An overview of the current research trends, visualized according to our taxonomy
 </p>
 <h5 align=center>Heatmap of the current research trend and pie chart of the proportion of the four roles of LLMs in different tasks.</h5>
 
+
+---
 ## ⭐ Overview of Mainstream LLMs
 | **Model**                        | **Release Date**    | **Organization** | **Size (B)**   | **Data (TB)**  | **Hardware Cost**    | **Public Access** |
 |---------------------------------------|---------------------|-----------------------|-----------------|----------------|----------------------|-----------------|
@@ -343,18 +345,18 @@ A curated list of other high-quality GitHub repositories and resource collection
 
 | Repository                                                                       | Area                                          | Description                                                                                             |
 |:---------------------------------------------------------------------------------|:----------------------------------------------|:--------------------------------------------------------------------------------------------------------|
-| [**ge25nab/Awesome-VLM-AD-ITS**](https://github.com/ge25nab/Awesome-VLM-AD-ITS)         | VLM, AD, ITS                                  | A focused collection of papers on Vision-Language Models for Autonomous Driving and ITS.                   |
-| [**PanaX-AI/awesome-llm-agents**](https://github.com/PanaX-AI/awesome-llm-agents)       | LLM Agents                                    | A comprehensive list of papers, frameworks, and resources for building and understanding LLM-based agents.   |
-| [**RUCAIBox/LLMSurvey**](https://github.com/RUCAIBox/LLMSurvey)                          | LLM Survey                                    | An extensive survey of Large Language Models, covering papers on pre-training, fine-tuning, and reasoning. |
-| [**BradyFU/Awesome-Multimodal-Large-Language-Models**](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | MLLMs                                         | A curated list of resources for Multimodal Large Language Models (MLLMs), including papers and code.       |
-| [**manfreddiaz/awesome-autonomous-driving**](https://github.com/manfreddiaz/awesome-autonomous-driving) | Autonomous Driving                            | A massive list of resources for all aspects of autonomous driving, from sensors to planning.             |
-| [**NiuTrans/ABigSurveyOfLLMs**](https://github.com/NiuTrans/ABigSurveyOfLLMs)            | LLM Survey                                    | A meta-survey compiling over 150 surveys on LLMs across various subfields like alignment and safety.       |
-| [**thunlp/GNNPapers**](https://github.com/thunlp/GNNPapers)                              | Graph Neural Networks                         | A must-read list of papers on Graph Neural Networks, highly relevant for transportation network modeling. |
-| [**huggingface/datasets**](https://github.com/huggingface/datasets)                      | Datasets                                      | The official repository for thousands of datasets, easily accessible for training and evaluation.        |
-| [**microsoft/DeepSpeed**](https://github.com/microsoft/DeepSpeed)                      | LLM Training                                  | A deep learning optimization library that makes large model training and inference more efficient.       |
-| [**bentoml/OpenLLM**](https://github.com/bentoml/OpenLLM)                               | LLM Deployment                                | An open platform for operating LLMs in production, simplifying deployment and scaling.                   |
-| [**jbhuang0604/awesome-computer-vision**](https://github.com/jbhuang0604/awesome-computer-vision)  | Computer Vision                               | A classic, curated list of essential resources for all things computer vision.                           |
-| [**wolverinn/awesome-diffusion-models**](https://github.com/wolverinn/awesome-diffusion-models) | Diffusion Models | A collection of resources for diffusion models, crucial for generative tasks like world simulation. |
+| [ge25nab/Awesome-VLM-AD-ITS](https://github.com/ge25nab/Awesome-VLM-AD-ITS)         | VLM, AD, ITS                                  | A focused collection of papers on Vision-Language Models for Autonomous Driving and ITS.                   |
+| [PanaX-AI/awesome-llm-agents](https://github.com/PanaX-AI/awesome-llm-agents)       | LLM Agents                                    | A comprehensive list of papers, frameworks, and resources for building and understanding LLM-based agents.   |
+| [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey)                          | LLM Survey                                    | An extensive survey of Large Language Models, covering papers on pre-training, fine-tuning, and reasoning. |
+| [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | MLLMs                                         | A curated list of resources for Multimodal Large Language Models (MLLMs), including papers and code.       |
+| [manfreddiaz/awesome-autonomous-driving](https://github.com/manfreddiaz/awesome-autonomous-driving) | Autonomous Driving                            | A massive list of resources for all aspects of autonomous driving, from sensors to planning.             |
+| [NiuTrans/ABigSurveyOfLLMs](https://github.com/NiuTrans/ABigSurveyOfLLMs)            | LLM Survey                                    | A meta-survey compiling over 150 surveys on LLMs across various subfields like alignment and safety.       |
+| [thunlp/GNNPapers](https://github.com/thunlp/GNNPapers)                              | Graph Neural Networks                         | A must-read list of papers on Graph Neural Networks, highly relevant for transportation network modeling. |
+| [huggingface/datasets](https://github.com/huggingface/datasets)                      | Datasets                                      | The official repository for thousands of datasets, easily accessible for training and evaluation.        |
+| [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed)                      | LLM Training                                  | A deep learning optimization library that makes large model training and inference more efficient.       |
+| [bentoml/OpenLLM](https://github.com/bentoml/OpenLLM)                               | LLM Deployment                                | An open platform for operating LLMs in production, simplifying deployment and scaling.                   |
+| [jbhuang0604/awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision)  | Computer Vision                               | A classic, curated list of essential resources for all things computer vision.                           |
+| [wolverinn/awesome-diffusion-models](https://github.com/wolverinn/awesome-diffusion-models) | Diffusion Models | A collection of resources for diffusion models, crucial for generative tasks like world simulation. |
 
 
 ---
