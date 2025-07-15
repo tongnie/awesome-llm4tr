@@ -227,7 +227,7 @@ Here, we list representative papers according to the four roles defined in the L
 - **Spatial-Temporal Predictor**
     - **[TPLLM: A traffic prediction framework based on pretrained large language models](https://arxiv.org/abs/2403.02221)**. *Ren, Y. et al.* **[arXiv 2024]**. 
         - *Highlight: Introduces a LoRA fine-tuning approach for GPT-2 to perform traffic prediction efficiently.*
-    - **[Spatial-temporal large language model for traffic prediction](https://arxiv.org/abs/2401.10134)**. *Liu, C. et al.* **[arXiv 2024]**. [[Code]]https://github.com/ChenxiLiu-HNU/ST-LLM)
+    - **[Spatial-temporal large language model for traffic prediction](https://arxiv.org/abs/2401.10134)**. *Liu, C. et al.* **[arXiv 2024]**. [[Code]](https://github.com/ChenxiLiu-HNU/ST-LLM)
         - *Highlight: Adopts a GPT-like architecture with a unified spatial-temporal embedding module for traffic forecasting.*
     - **[MobilityGPT: Enhanced human mobility modeling with a GPT model](https://arxiv.org/abs/2402.03264)**. *Haydari, A. et al.* **[arXiv 2024]**.
         - *Highlight: Formulates human mobility modeling as an autoregressive generation task and fine-tunes it using Reinforcement Learning from Trajectory Feedback (RLTF).*
